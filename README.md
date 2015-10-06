@@ -13,6 +13,6 @@ An archival store is provided to record environmental conditions, [and BMS and B
 
 Modules can be distributed around the internet, and in this sense it may be seen as part of the Internet Of Things (IoT).
 
-Initial development has mostly taken place on the Raspberry Pi under Raspbian, though it should port perfectly well to other linux based board, e.g. the BeagleBone.
+Initial development has mostly taken place on the Raspberry Pi under Raspbian, though it should port perfectly well to other linux based boards, e.g. the BeagleBone.
 
 The archival database has been implemented on an Intel Linux box to avoid doing frequent writes to SD cards.
