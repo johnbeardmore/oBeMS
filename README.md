@@ -5,7 +5,7 @@ Open source environmental monitoring, automatic meter reading and building manag
 
 Note that the items in [square brackets] below are planned, but not yet implemented.
 
-Open Source LGPL3 system for energy and environmental measurement, automatic meter reading (AMR), [building energy management (BEMS), and building management (BMS)].
+Open Source GPL2 system for energy and environmental measurement, automatic meter reading (AMR), [building energy management (BEMS), and building management (BMS)].
 
 The system consists of server processes which provide access to sensors and actuators via IP address and port number. Server processes are used which provide user interfaces, [make BMS and BEMS decisions], and relay information to archival stores.
 
