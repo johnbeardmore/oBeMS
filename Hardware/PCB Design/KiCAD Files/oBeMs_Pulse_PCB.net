@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "E:/Google Drive REI/GitHub Repositories/oBeMS/Hardware/PCB Design/KiCAD Files/oBeMs_Pulse_PCB.sch")
-    (date "04/11/2015 18:10:52")
+    (date "09/11/2015 13:35:52")
     (tool "Eeschema (2015-07-09 BZR 5913, Git 33e1797)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -276,7 +276,7 @@
       (tstamp 56363C51))
     (comp (ref L1)
       (value 330uH)
-      (footprint matts_components:C2V8_large_pads)
+      (footprint REInnovationFootprint:TH_Inductor)
       (datasheet http://docs-europe.electrocomponents.com/webdocs/0d90/0900766b80d90b31.pdf)
       (fields
         (field (name Description) "Inductor. 1A RMS. ")

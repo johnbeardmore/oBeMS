@@ -248,7 +248,7 @@ U 1 1 56363C61
 P 8200 1600
 F 0 "L1" V 8150 1600 40  0000 C CNN
 F 1 "330uH" V 8300 1600 40  0000 C CNN
-F 2 "matts_components:C2V8_large_pads" H 8200 1600 60  0001 C CNN
+F 2 "REInnovationFootprint:TH_Inductor" H 8200 1600 60  0001 C CNN
 F 3 "http://docs-europe.electrocomponents.com/webdocs/0d90/0900766b80d90b31.pdf" H 8200 1600 60  0001 C CNN
 F 4 "Inductor. 1A RMS. " H 8200 1600 60  0001 C CNN "Description"
 F 5 "~" H 8200 1600 60  0001 C CNN "Notes"
