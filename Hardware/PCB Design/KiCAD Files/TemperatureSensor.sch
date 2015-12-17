@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:matts_components
 LIBS:oBeMs_Pulse_PCB-cache
+LIBS:matts_components
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 3 10
 Title "oBeMs Open Pulse Monitor Unit"
 Date "2015-11-01"
-Rev "2"
+Rev "3"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -68,10 +68,10 @@ $EndComp
 Text Notes 4050 2150 0    60   ~ 0
 1 Wire Temp Monitoring
 $Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR012
+L GND-RESCUE-oBeMs_Pulse_PCB #PWR014
 U 1 1 56365A89
 P 5550 2550
-F 0 "#PWR012" H 5550 2550 30  0001 C CNN
+F 0 "#PWR014" H 5550 2550 30  0001 C CNN
 F 1 "GND" H 5550 2480 30  0001 C CNN
 F 2 "" H 5550 2550 60  0000 C CNN
 F 3 "" H 5550 2550 60  0000 C CNN
@@ -90,10 +90,10 @@ F 3 "" H 4200 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR013
+L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR015
 U 1 1 56365A96
 P 4200 2400
-F 0 "#PWR013" H 4200 2360 30  0001 C CNN
+F 0 "#PWR015" H 4200 2360 30  0001 C CNN
 F 1 "+3.3V" H 4200 2510 30  0000 C CNN
 F 2 "" H 4200 2400 60  0000 C CNN
 F 3 "" H 4200 2400 60  0000 C CNN
@@ -101,10 +101,10 @@ F 3 "" H 4200 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR014
+L GND-RESCUE-oBeMs_Pulse_PCB #PWR016
 U 1 1 56365A9C
 P 4000 3300
-F 0 "#PWR014" H 4000 3300 30  0001 C CNN
+F 0 "#PWR016" H 4000 3300 30  0001 C CNN
 F 1 "GND" H 4000 3230 30  0001 C CNN
 F 2 "" H 4000 3300 60  0000 C CNN
 F 3 "" H 4000 3300 60  0000 C CNN
