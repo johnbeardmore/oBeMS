@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 10
 Title "oBeMs Open Pulse Monitor Unit"
 Date "2015-11-01"
-Rev "2"
+Rev "3"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -376,21 +376,54 @@ F 3 "" H 3750 4750 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1500 1950 1900 1950
-$Comp
-L BARREL_JACK P8
-U 1 1 5672DA00
-P 1200 2050
-F 0 "P8" H 1200 2300 50  0000 C CNN
-F 1 "VIN_DC" H 1200 1850 50  0000 C CNN
-F 2 "REInnovationFootprint:DC_Power_2_1" H 1200 2050 50  0001 C CNN
-F 3 "" H 1200 2050 50  0000 C CNN
-	1    1200 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 2150 1750 2150
-Wire Wire Line
-	1750 2150 1750 2100
 Wire Wire Line
 	1750 2100 1900 2100
+$Comp
+L CONN_01X02 P8
+U 1 1 5675A266
+P 1300 2000
+F 0 "P8" H 1300 2150 50  0000 C CNN
+F 1 "VDC_IN" V 1400 2000 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_CONN_2W" H 1300 2000 50  0001 C CNN
+F 3 "" H 1300 2000 50  0000 C CNN
+F 4 "~" H 1300 2000 60  0001 C CNN "Description"
+F 5 "~" H 1300 2000 60  0001 C CNN "Notes"
+F 6 "~" H 1300 2000 60  0001 C CNN "Manufacturer"
+F 7 "~" H 1300 2000 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 1300 2000 60  0001 C CNN "Supplier 1"
+F 9 "~" H 1300 2000 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 1300 2000 60  0001 C CNN "Supplier 2"
+F 11 "~" H 1300 2000 60  0001 C CNN "Supplier 2 Part No"
+F 12 "~" H 1300 2000 60  0001 C CNN "Cost"
+	1    1300 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2050 1750 2050
+Wire Wire Line
+	1750 2050 1750 2100
+$Comp
+L CONN_01X01 H1
+U 1 1 5675BB5B
+P 3200 1550
+F 0 "H1" H 3200 1650 50  0000 C CNN
+F 1 "Bolt Hole" V 3300 1550 50  0000 C CNN
+F 2 "matts_components:3mm_hole" H 3200 1550 50  0001 C CNN
+F 3 "" H 3200 1550 50  0000 C CNN
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 H2
+U 1 1 5675BC36
+P 3200 2000
+F 0 "H2" H 3200 2100 50  0000 C CNN
+F 1 "Bolt Hole" V 3300 2000 50  0000 C CNN
+F 2 "matts_components:3mm_hole" H 3200 2000 50  0001 C CNN
+F 3 "" H 3200 2000 50  0000 C CNN
+	1    3200 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 1550
+NoConn ~ 3000 2000
 $EndSCHEMATC
