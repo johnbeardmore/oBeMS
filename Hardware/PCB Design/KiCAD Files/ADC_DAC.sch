@@ -29,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:oBeMs_Pulse_PCB-cache
 LIBS:matts_components
+LIBS:oBeMs_Pulse_PCB-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-11-01"
-Rev "3"
+Date "2015-12-21"
+Rev "4"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -118,7 +118,7 @@ L C-RESCUE-oBeMs_Pulse_PCB C8
 U 1 1 56376A03
 P 6050 2200
 F 0 "C8" H 6100 2300 50  0000 L CNN
-F 1 "100n" H 6100 2100 50  0000 L CNN
+F 1 "1000n" H 6100 2100 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 6050 2200 60  0001 C CNN
 F 3 "" H 6050 2200 60  0000 C CNN
 F 4 "Value" H 6050 2200 60  0001 C CNN "Description"
@@ -181,7 +181,7 @@ L C-RESCUE-oBeMs_Pulse_PCB C7
 U 1 1 56376A2C
 P 6000 3400
 F 0 "C7" H 6050 3500 50  0000 L CNN
-F 1 "100n" H 6050 3300 50  0000 L CNN
+F 1 "1000n" H 6050 3300 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 6000 3400 60  0001 C CNN
 F 3 "" H 6000 3400 60  0000 C CNN
 F 4 "Value" H 6000 3400 60  0001 C CNN "Description"
@@ -488,48 +488,12 @@ Wire Wire Line
 	8400 5500 8400 5550
 Wire Wire Line
 	7300 5400 7300 5200
-$Comp
-L CONN_01X02 P34
-U 1 1 5638622A
-P 8750 5200
-F 0 "P34" H 8750 5350 50  0000 C CNN
-F 1 "DAC_A" V 8850 5200 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 8750 5200 60  0001 C CNN
-F 3 "" H 8750 5200 60  0000 C CNN
-	1    8750 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P35
-U 1 1 5638632F
-P 8750 5800
-F 0 "P35" H 8750 5950 50  0000 C CNN
-F 1 "DAC_B" V 8850 5800 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 8750 5800 60  0001 C CNN
-F 3 "" H 8750 5800 60  0000 C CNN
-	1    8750 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 5250 8500 5250
-Wire Wire Line
-	8500 5150 8500 5400
-Wire Wire Line
-	8500 5150 8550 5150
-Wire Wire Line
-	8300 5750 8550 5750
-Wire Wire Line
-	8500 5750 8500 5850
-Wire Wire Line
-	8500 5850 8550 5850
 Wire Wire Line
 	8050 5600 8300 5600
 Wire Wire Line
 	8300 5600 8300 5750
-Connection ~ 8500 5750
 Wire Wire Line
-	8500 5400 8050 5400
-Connection ~ 8500 5250
+	8050 5400 9200 5400
 $Comp
 L GND-RESCUE-oBeMs_Pulse_PCB #PWR028
 U 1 1 56386BF5
@@ -581,4 +545,53 @@ Wire Wire Line
 Wire Wire Line
 	8200 5200 8200 5500
 Connection ~ 8200 5500
+$Comp
+L CONN_02X04 P34
+U 1 1 5678A781
+P 9450 5450
+F 0 "P34" H 9450 5700 50  0000 C CNN
+F 1 "DAC" H 9450 5200 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_2x04" H 9450 4250 60  0001 C CNN
+F 3 "" H 9450 4250 60  0000 C CNN
+	1    9450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-oBeMs_Pulse_PCB #PWR029
+U 1 1 5678A7D6
+P 9850 5700
+F 0 "#PWR029" H 9850 5700 30  0001 C CNN
+F 1 "GND" H 9850 5630 30  0001 C CNN
+F 2 "" H 9850 5700 60  0000 C CNN
+F 3 "" H 9850 5700 60  0000 C CNN
+	1    9850 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5300 9850 5300
+Wire Wire Line
+	9850 5300 9850 5700
+Wire Wire Line
+	9700 5600 9850 5600
+Connection ~ 9850 5600
+Wire Wire Line
+	9700 5500 9850 5500
+Connection ~ 9850 5500
+Wire Wire Line
+	9700 5400 9850 5400
+Connection ~ 9850 5400
+Wire Wire Line
+	9200 5300 9100 5300
+Wire Wire Line
+	9100 5300 9100 5400
+Connection ~ 9100 5400
+Wire Wire Line
+	8300 5750 9100 5750
+Wire Wire Line
+	9100 5750 9100 5500
+Wire Wire Line
+	9100 5500 9200 5500
+Wire Wire Line
+	9200 5600 9100 5600
+Connection ~ 9100 5600
 $EndSCHEMATC

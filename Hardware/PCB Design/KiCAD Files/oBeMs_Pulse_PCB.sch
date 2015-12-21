@@ -29,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:oBeMs_Pulse_PCB-cache
 LIBS:matts_components
+LIBS:oBeMs_Pulse_PCB-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-11-01"
-Rev "3"
+Date "2015-12-21"
+Rev "4"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -114,28 +114,6 @@ F 3 "" H 5950 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P1
-U 1 1 561517E1
-P 1100 3050
-F 0 "P1" H 1100 3250 50  0000 C CNN
-F 1 "1WIRE_OUT" V 1200 3050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1100 3050 60  0001 C CNN
-F 3 "" H 1100 3050 60  0000 C CNN
-	1    1100 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X03 P2
-U 1 1 56151894
-P 1100 3600
-F 0 "P2" H 1100 3800 50  0000 C CNN
-F 1 "1WIRE_SENSOR" V 1200 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1100 3600 60  0001 C CNN
-F 3 "" H 1100 3600 60  0000 C CNN
-	1    1100 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L GND-RESCUE-oBeMs_Pulse_PCB #PWR01
 U 1 1 56168291
 P 1550 5400
@@ -199,8 +177,8 @@ F1 "PSU.sch" 60
 F2 "L" I L 1900 1350 60 
 F3 "N" I L 1900 1450 60 
 F4 "EARTH" I L 1900 1550 60 
-F5 "VDC_IN_GND" I L 1900 2100 60 
-F6 "VDC_IN+" I L 1900 1950 60 
+F5 "VIN_B" I L 1900 2100 60 
+F6 "VIN_A" I L 1900 1950 60 
 $EndSheet
 Wire Wire Line
 	1750 1350 1900 1350
@@ -218,32 +196,11 @@ F3 "GND" I L 1850 3400 60
 F4 "D-1-Wire" I L 1850 3300 60 
 $EndSheet
 Wire Wire Line
-	1650 3500 1300 3500
-Wire Wire Line
-	1650 2950 1650 3500
-Wire Wire Line
-	1650 2950 1300 2950
-Wire Wire Line
-	1300 3050 1600 3050
-Wire Wire Line
-	1600 3050 1600 3600
-Wire Wire Line
-	1600 3600 1300 3600
-Wire Wire Line
-	1300 3150 1550 3150
-Wire Wire Line
-	1550 3150 1550 3700
-Wire Wire Line
-	1550 3700 1300 3700
-Wire Wire Line
 	1550 3400 1850 3400
-Connection ~ 1550 3400
 Wire Wire Line
-	1850 3300 1600 3300
-Connection ~ 1600 3300
+	1350 3300 1850 3300
 Wire Wire Line
-	1850 3200 1650 3200
-Connection ~ 1650 3200
+	1350 3200 1850 3200
 $Sheet
 S 1650 4850 800  600 
 U 56368FA0
@@ -426,4 +383,46 @@ F 3 "" H 3200 2000 50  0000 C CNN
 $EndComp
 NoConn ~ 3000 1550
 NoConn ~ 3000 2000
+$Comp
+L CONN_01X01 LG4
+U 1 1 5677EAF3
+P 4750 7050
+F 0 "LG4" H 4750 7150 50  0000 C CNN
+F 1 "V0000" V 4850 7050 50  0000 C CNN
+F 2 "" H 4750 7050 60  0001 C CNN
+F 3 "" H 4750 7050 60  0000 C CNN
+F 4 "Value" H 4750 7050 60  0001 C CNN "Description"
+F 5 "Value" H 4750 7050 60  0001 C CNN "Notes"
+F 6 "Value" H 4750 7050 60  0001 C CNN "Manufacturer"
+F 7 "Value" H 4750 7050 60  0001 C CNN "Manufacturer Part No"
+F 8 "Value" H 4750 7050 60  0001 C CNN "Supplier 1"
+F 9 "Value" H 4750 7050 60  0001 C CNN "Supplier 1 Part No"
+F 10 "Value" H 4750 7050 60  0001 C CNN "Supplier 2"
+F 11 "Value" H 4750 7050 60  0001 C CNN "Supplier 2 Part No"
+	1    4750 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4550 7050
+Text Notes 4300 6850 0    60   ~ 0
+VERSION NUMBER
+$Comp
+L CONN_01X04 P1
+U 1 1 56780130
+P 1150 3350
+F 0 "P1" H 1150 3600 50  0000 C CNN
+F 1 "1WIRE" V 1250 3350 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_1x04" H 1150 3350 60  0001 C CNN
+F 3 "" H 1150 3350 60  0000 C CNN
+	1    1150 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3500 1550 3500
+Wire Wire Line
+	1550 3500 1550 3400
+Wire Wire Line
+	1350 3400 1400 3400
+Wire Wire Line
+	1400 3400 1400 3300
+Connection ~ 1400 3300
 $EndSCHEMATC

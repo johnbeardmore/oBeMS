@@ -29,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:oBeMs_Pulse_PCB-cache
 LIBS:matts_components
+LIBS:oBeMs_Pulse_PCB-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
 Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-11-01"
-Rev "3"
+Date "2015-12-21"
+Rev "4"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -208,14 +208,14 @@ F 11 "Value" H 5100 1350 60  0001 C CNN "Supplier 2 Part No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR029
+L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR030
 U 1 1 563790C9
 P 5050 900
-AR Path="/56378529/563790C9" Ref="#PWR029"  Part="1" 
-AR Path="/5637E9E0/563790C9" Ref="#PWR031"  Part="1" 
-AR Path="/5637EAA2/563790C9" Ref="#PWR033"  Part="1" 
+AR Path="/56378529/563790C9" Ref="#PWR030"  Part="1" 
+AR Path="/5637E9E0/563790C9" Ref="#PWR032"  Part="1" 
+AR Path="/5637EAA2/563790C9" Ref="#PWR034"  Part="1" 
 AR Path="/5637EAA4/563790C9" Ref="#PWR041"  Part="1" 
-F 0 "#PWR033" H 5050 860 30  0001 C CNN
+F 0 "#PWR034" H 5050 860 30  0001 C CNN
 F 1 "+3.3V" H 5050 1010 30  0000 C CNN
 F 2 "" H 5050 900 60  0000 C CNN
 F 3 "" H 5050 900 60  0000 C CNN
@@ -225,14 +225,14 @@ $EndComp
 Text Notes 4000 2000 0    60   ~ 0
 DIO
 $Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR030
+L GND-RESCUE-oBeMs_Pulse_PCB #PWR031
 U 1 1 563790D7
 P 5200 4600
-AR Path="/56378529/563790D7" Ref="#PWR030"  Part="1" 
-AR Path="/5637E9E0/563790D7" Ref="#PWR032"  Part="1" 
-AR Path="/5637EAA2/563790D7" Ref="#PWR034"  Part="1" 
+AR Path="/56378529/563790D7" Ref="#PWR031"  Part="1" 
+AR Path="/5637E9E0/563790D7" Ref="#PWR033"  Part="1" 
+AR Path="/5637EAA2/563790D7" Ref="#PWR035"  Part="1" 
 AR Path="/5637EAA4/563790D7" Ref="#PWR042"  Part="1" 
-F 0 "#PWR034" H 5200 4600 30  0001 C CNN
+F 0 "#PWR035" H 5200 4600 30  0001 C CNN
 F 1 "GND" H 5200 4530 30  0001 C CNN
 F 2 "" H 5200 4600 60  0000 C CNN
 F 3 "" H 5200 4600 60  0000 C CNN
@@ -272,7 +272,7 @@ AR Path="/5637E9E0/56379AE8" Ref="P24"  Part="1"
 AR Path="/5637EAA2/56379AE8" Ref="P28"  Part="1" 
 AR Path="/5637EAA4/56379AE8" Ref="P32"  Part="1" 
 F 0 "P28" H 5200 4650 50  0000 C CNN
-F 1 "PULL_DOWN" V 5200 4000 50  0000 C CNN
+F 1 "GROUND" V 5200 4000 50  0000 C CNN
 F 2 "REInnovationFootprint:Pin_Header_Straight_2x12" H 5200 2800 60  0001 C CNN
 F 3 "" H 5200 2800 60  0000 C CNN
 F 4 "~" H 5200 4000 60  0001 C CNN "Description"

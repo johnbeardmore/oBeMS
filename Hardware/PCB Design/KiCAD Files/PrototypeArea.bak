@@ -29,18 +29,18 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:oBeMs_Pulse_PCB-cache
 LIBS:matts_components
+LIBS:oBeMs_Pulse_PCB-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
-Title ""
-Date ""
-Rev "3"
-Comp ""
-Comment1 ""
+Title "oBeMs Open Pulse Monitor Unit"
+Date "2015-12-21"
+Rev "4"
+Comp "T4 Sustainability"
+Comment1 "PCB design by RE-Innovation"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -70,22 +70,6 @@ NoConn ~ 4850 3500
 NoConn ~ 4850 3400
 NoConn ~ 4850 3300
 NoConn ~ 4850 3200
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR043
-U 1 1 56388993
-P 4700 3150
-AR Path="/56388993" Ref="#PWR043"  Part="1" 
-AR Path="/56384A5B/56388993" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 4700 2900 50  0001 C CNN
-F 1 "GND" H 4700 3000 50  0000 C CNN
-F 2 "" H 4700 3150 60  0000 C CNN
-F 3 "" H 4700 3150 60  0000 C CNN
-	1    4700 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 3100 4700 3100
-Wire Wire Line
-	4700 3100 4700 3150
 NoConn ~ 4850 3000
+NoConn ~ 4850 3100
 $EndSCHEMATC

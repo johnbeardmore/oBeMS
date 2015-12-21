@@ -29,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:oBeMs_Pulse_PCB-cache
 LIBS:matts_components
+LIBS:oBeMs_Pulse_PCB-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-11-01"
-Rev "3"
+Date "2015-12-21"
+Rev "4"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -151,7 +151,7 @@ L R-RESCUE-oBeMs_Pulse_PCB R6
 U 1 1 5636A514
 P 7600 3800
 F 0 "R6" V 7680 3800 50  0000 C CNN
-F 1 "120" V 7600 3800 50  0000 C CNN
+F 1 "100" V 7600 3800 50  0000 C CNN
 F 2 "REInnovationFootprint:TH_Resistor_1" H 7600 3800 60  0001 C CNN
 F 3 "" H 7600 3800 60  0000 C CNN
 F 4 "Value" H 7600 3800 60  0001 C CNN "Description"
@@ -346,25 +346,6 @@ Wire Wire Line
 Text HLabel 7600 3400 1    60   Input ~ 0
 +3.3V
 $Comp
-L R-RESCUE-oBeMs_Pulse_PCB R10
-U 1 1 563A562D
-P 6600 3600
-F 0 "R10" V 6680 3600 50  0000 C CNN
-F 1 "120" V 6600 3600 50  0000 C CNN
-F 2 "REInnovationFootprint:TH_Resistor_1" H 6600 3600 60  0001 C CNN
-F 3 "" H 6600 3600 60  0000 C CNN
-F 4 "Value" H 6600 3600 60  0001 C CNN "Description"
-F 5 "Value" H 6600 3600 60  0001 C CNN "Notes"
-F 6 "Value" H 6600 3600 60  0001 C CNN "Manufacturer"
-F 7 "Value" H 6600 3600 60  0001 C CNN "Manufacturer Part No"
-F 8 "Value" H 6600 3600 60  0001 C CNN "Supplier 1"
-F 9 "Value" H 6600 3600 60  0001 C CNN "Supplier 1 Part No"
-F 10 "Value" H 6600 3600 60  0001 C CNN "Supplier 2"
-F 11 "Value" H 6600 3600 60  0001 C CNN "Supplier 2 Part No"
-	1    6600 3600
-	1    0    0    1   
-$EndComp
-$Comp
 L LED-RESCUE-oBeMs_Pulse_PCB D12
 U 1 1 563A5633
 P 6600 3050
@@ -376,9 +357,7 @@ F 3 "" H 6600 3050 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6600 3250 6600 3350
-Wire Wire Line
-	6600 3850 6600 4000
+	6600 3250 6600 4000
 Wire Wire Line
 	4850 4100 5150 4100
 $Comp
@@ -386,11 +365,11 @@ L PNP Q2
 U 1 1 563A5834
 P 3800 3950
 F 0 "Q2" H 3800 3800 60  0000 R CNN
-F 1 "BC556" H 3800 4100 60  0000 R CNN
+F 1 "BC556" H 4300 3850 60  0000 R CNN
 F 2 "matts_components:TO92-PNP_large_pad" H 3800 3950 60  0001 C CNN
 F 3 "" H 3800 3950 60  0000 C CNN
 	1    3800 3950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5150 4300 4400 4300
@@ -399,25 +378,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 4600 7750 4600
 Connection ~ 7600 4600
-$Comp
-L R-RESCUE-oBeMs_Pulse_PCB R55
-U 1 1 563A651A
-P 6900 3600
-F 0 "R55" V 6980 3600 50  0000 C CNN
-F 1 "120" V 6900 3600 50  0000 C CNN
-F 2 "REInnovationFootprint:TH_Resistor_1" H 6900 3600 60  0001 C CNN
-F 3 "" H 6900 3600 60  0000 C CNN
-F 4 "Value" H 6900 3600 60  0001 C CNN "Description"
-F 5 "Value" H 6900 3600 60  0001 C CNN "Notes"
-F 6 "Value" H 6900 3600 60  0001 C CNN "Manufacturer"
-F 7 "Value" H 6900 3600 60  0001 C CNN "Manufacturer Part No"
-F 8 "Value" H 6900 3600 60  0001 C CNN "Supplier 1"
-F 9 "Value" H 6900 3600 60  0001 C CNN "Supplier 1 Part No"
-F 10 "Value" H 6900 3600 60  0001 C CNN "Supplier 2"
-F 11 "Value" H 6900 3600 60  0001 C CNN "Supplier 2 Part No"
-	1    6900 3600
-	1    0    0    1   
-$EndComp
 $Comp
 L LED-RESCUE-oBeMs_Pulse_PCB D13
 U 1 1 563A6520
@@ -438,28 +398,7 @@ F 11 "Value" H 6900 3050 60  0001 C CNN "Supplier 2 Part No"
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6900 3250 6900 3350
-Wire Wire Line
-	6900 3850 6900 4700
-$Comp
-L R-RESCUE-oBeMs_Pulse_PCB R56
-U 1 1 563A6584
-P 7200 3600
-F 0 "R56" V 7280 3600 50  0000 C CNN
-F 1 "120" V 7200 3600 50  0000 C CNN
-F 2 "REInnovationFootprint:TH_Resistor_1" H 7200 3600 60  0001 C CNN
-F 3 "" H 7200 3600 60  0000 C CNN
-F 4 "Value" H 7200 3600 60  0001 C CNN "Description"
-F 5 "Value" H 7200 3600 60  0001 C CNN "Notes"
-F 6 "Value" H 7200 3600 60  0001 C CNN "Manufacturer"
-F 7 "Value" H 7200 3600 60  0001 C CNN "Manufacturer Part No"
-F 8 "Value" H 7200 3600 60  0001 C CNN "Supplier 1"
-F 9 "Value" H 7200 3600 60  0001 C CNN "Supplier 1 Part No"
-F 10 "Value" H 7200 3600 60  0001 C CNN "Supplier 2"
-F 11 "Value" H 7200 3600 60  0001 C CNN "Supplier 2 Part No"
-	1    7200 3600
-	1    0    0    1   
-$EndComp
+	6900 3250 6900 4700
 $Comp
 L LED-RESCUE-oBeMs_Pulse_PCB D14
 U 1 1 563A658A
@@ -472,9 +411,7 @@ F 3 "" H 7200 3050 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7200 3250 7200 3350
-Wire Wire Line
-	7200 3850 7200 4800
+	7200 3250 7200 4800
 Wire Wire Line
 	6600 4000 6450 4000
 Wire Wire Line
