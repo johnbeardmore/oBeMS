@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:matts_components
 LIBS:oBeMs_Pulse_PCB-cache
+LIBS:matts_components
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

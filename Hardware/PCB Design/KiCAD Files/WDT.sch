@@ -29,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:matts_components
 LIBS:oBeMs_Pulse_PCB-cache
+LIBS:matts_components
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-21"
-Rev "4"
+Date "2015-12-22"
+Rev "5"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""

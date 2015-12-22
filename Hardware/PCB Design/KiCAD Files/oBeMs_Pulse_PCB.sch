@@ -29,16 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:matts_components
 LIBS:oBeMs_Pulse_PCB-cache
+LIBS:matts_components
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-21"
-Rev "4"
+Date "2015-12-22"
+Rev "5"
 Comp "T4 Sustainability"
 Comment1 "PCB design by RE-Innovation"
 Comment2 ""
@@ -340,7 +340,7 @@ L CONN_01X02 P8
 U 1 1 5675A266
 P 1300 2000
 F 0 "P8" H 1300 2150 50  0000 C CNN
-F 1 "VDC_IN" V 1400 2000 50  0000 C CNN
+F 1 "LT_PWR" V 1400 2000 50  0000 C CNN
 F 2 "REInnovationFootprint:TH_CONN_2W" H 1300 2000 50  0001 C CNN
 F 3 "" H 1300 2000 50  0000 C CNN
 F 4 "~" H 1300 2000 60  0001 C CNN "Description"

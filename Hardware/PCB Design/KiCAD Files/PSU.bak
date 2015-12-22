@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:matts_components
 LIBS:oBeMs_Pulse_PCB-cache
+LIBS:matts_components
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -614,7 +614,7 @@ U 1 1 567840E6
 P 2750 4900
 F 0 "D16" H 2750 4950 70  0000 C CNN
 F 1 "BRIDGE" H 2750 4850 70  0000 C CNN
-F 2 "matts_components:D3_lg_pad" H 2750 4900 60  0001 C CNN
+F 2 "REInnovationFootprint:TH_BridgeRect_8A" H 2750 4900 60  0001 C CNN
 F 3 "http://docs-europe.electrocomponents.com/webdocs/1404/0900766b81404e75.pdf" H 2750 4900 60  0001 C CNN
 F 4 "8A Bridge Rectifier" H 2750 4900 60  0001 C CNN "Description"
 F 5 "~" H 2750 4900 60  0001 C CNN "Notes"
