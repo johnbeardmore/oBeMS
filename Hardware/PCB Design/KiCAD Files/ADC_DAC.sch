@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
-Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-22"
-Rev "5"
+Title "oBeMS Open Interface Board 0001"
+Date "2015-12-23"
+Rev "6"
 Comp "T4 Sustainability"
-Comment1 "PCB design by RE-Innovation"
+Comment1 "PCB design by T4 Sustainability/RE-Innovation"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -67,50 +67,6 @@ F 1 "ADC_0-7" V 3950 2850 50  0000 C CNN
 F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 3950 1650 60  0001 C CNN
 F 3 "" H 3950 1650 60  0000 C CNN
 	1    3950 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR018
-U 1 1 563769DC
-P 5450 3250
-F 0 "#PWR018" H 5450 3250 30  0001 C CNN
-F 1 "GND" H 5450 3180 30  0001 C CNN
-F 2 "" H 5450 3250 60  0000 C CNN
-F 3 "" H 5450 3250 60  0000 C CNN
-	1    5450 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR019
-U 1 1 563769E2
-P 5450 2450
-F 0 "#PWR019" H 5450 2410 30  0001 C CNN
-F 1 "+3.3V" H 5450 2560 30  0000 C CNN
-F 2 "" H 5450 2450 60  0000 C CNN
-F 3 "" H 5450 2450 60  0000 C CNN
-	1    5450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR020
-U 1 1 563769EF
-P 7450 3450
-F 0 "#PWR020" H 7450 3450 30  0001 C CNN
-F 1 "GND" H 7450 3380 30  0001 C CNN
-F 2 "" H 7450 3450 60  0000 C CNN
-F 3 "" H 7450 3450 60  0000 C CNN
-	1    7450 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR021
-U 1 1 563769F5
-P 7450 2700
-F 0 "#PWR021" H 7450 2660 30  0001 C CNN
-F 1 "+3.3V" H 7450 2810 30  0000 C CNN
-F 2 "" H 7450 2700 60  0000 C CNN
-F 3 "" H 7450 2700 60  0000 C CNN
-	1    7450 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -155,28 +111,6 @@ F 3 "" H 3950 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR022
-U 1 1 56376A18
-P 5450 4500
-F 0 "#PWR022" H 5450 4500 30  0001 C CNN
-F 1 "GND" H 5450 4430 30  0001 C CNN
-F 2 "" H 5450 4500 60  0000 C CNN
-F 3 "" H 5450 4500 60  0000 C CNN
-	1    5450 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR023
-U 1 1 56376A1E
-P 5450 3700
-F 0 "#PWR023" H 5450 3660 30  0001 C CNN
-F 1 "+3.3V" H 5450 3810 30  0000 C CNN
-F 2 "" H 5450 3700 60  0000 C CNN
-F 3 "" H 5450 3700 60  0000 C CNN
-	1    5450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L C-RESCUE-oBeMs_Pulse_PCB C7
 U 1 1 56376A2C
 P 6000 3400
@@ -215,28 +149,6 @@ F 1 "ADC_VREF_2" V 6450 3800 50  0000 C CNN
 F 2 "REInnovationFootprint:Pin_Header_Straight_1x02" H 6350 3800 60  0001 C CNN
 F 3 "" H 6350 3800 60  0000 C CNN
 	1    6350 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR024
-U 1 1 56376A41
-P 6050 2450
-F 0 "#PWR024" H 6050 2450 30  0001 C CNN
-F 1 "GND" H 6050 2380 30  0001 C CNN
-F 2 "" H 6050 2450 60  0000 C CNN
-F 3 "" H 6050 2450 60  0000 C CNN
-	1    6050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR025
-U 1 1 56376A47
-P 6000 3650
-F 0 "#PWR025" H 6000 3650 30  0001 C CNN
-F 1 "GND" H 6000 3580 30  0001 C CNN
-F 2 "" H 6000 3650 60  0000 C CNN
-F 3 "" H 6000 3650 60  0000 C CNN
-	1    6000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -320,11 +232,9 @@ Wire Wire Line
 	3700 2500 3500 2500
 Connection ~ 3500 2500
 Wire Wire Line
-	7550 2700 7450 2700
+	7300 2700 7550 2700
 Wire Wire Line
 	7550 3400 7450 3400
-Wire Wire Line
-	7450 3400 7450 3450
 Wire Wire Line
 	5350 2600 5700 2600
 Wire Wire Line
@@ -379,8 +289,6 @@ Wire Wire Line
 	3700 3750 3500 3750
 Connection ~ 3500 3750
 Wire Wire Line
-	5450 4450 5450 4500
-Wire Wire Line
 	5350 3850 6150 3850
 Wire Wire Line
 	5350 3750 6150 3750
@@ -415,13 +323,11 @@ Wire Wire Line
 Wire Wire Line
 	5350 3200 5450 3200
 Wire Wire Line
-	5450 3200 5450 3250
-Wire Wire Line
 	5800 2000 6050 2000
 Wire Wire Line
 	6050 2400 6050 2450
 Wire Wire Line
-	5450 2450 5450 2500
+	5450 2300 5450 2500
 Connection ~ 5450 2500
 Wire Wire Line
 	6300 2450 6150 2450
@@ -445,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3650 6000 3600
 Wire Wire Line
-	5450 3700 5450 3750
+	5450 3550 5450 3750
 Connection ~ 5450 3750
 Connection ~ 5800 3750
 Connection ~ 6550 2800
@@ -460,51 +366,18 @@ Wire Wire Line
 Wire Wire Line
 	6550 5600 7300 5600
 Connection ~ 6550 4050
-$Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR026
-U 1 1 563860F4
-P 7300 5200
-F 0 "#PWR026" H 7300 5160 30  0001 C CNN
-F 1 "+3.3V" H 7300 5310 30  0000 C CNN
-F 2 "" H 7300 5200 60  0000 C CNN
-F 3 "" H 7300 5200 60  0000 C CNN
-	1    7300 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR027
-U 1 1 5638611D
-P 8400 5550
-F 0 "#PWR027" H 8400 5550 30  0001 C CNN
-F 1 "GND" H 8400 5480 30  0001 C CNN
-F 2 "" H 8400 5550 60  0000 C CNN
-F 3 "" H 8400 5550 60  0000 C CNN
-	1    8400 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8050 5500 8400 5500
 Wire Wire Line
 	8400 5500 8400 5550
 Wire Wire Line
-	7300 5400 7300 5200
+	7300 5000 7300 5400
 Wire Wire Line
 	8050 5600 8300 5600
 Wire Wire Line
 	8300 5600 8300 5750
 Wire Wire Line
 	8050 5400 9200 5400
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR028
-U 1 1 56386BF5
-P 8150 5800
-F 0 "#PWR028" H 8150 5800 30  0001 C CNN
-F 1 "GND" H 8150 5730 30  0001 C CNN
-F 2 "" H 8150 5800 60  0000 C CNN
-F 3 "" H 8150 5800 60  0000 C CNN
-	1    8150 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8050 5700 8150 5700
 Wire Wire Line
@@ -556,21 +429,10 @@ F 3 "" H 9450 4250 60  0000 C CNN
 	1    9450 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR029
-U 1 1 5678A7D6
-P 9850 5700
-F 0 "#PWR029" H 9850 5700 30  0001 C CNN
-F 1 "GND" H 9850 5630 30  0001 C CNN
-F 2 "" H 9850 5700 60  0000 C CNN
-F 3 "" H 9850 5700 60  0000 C CNN
-	1    9850 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9700 5300 9850 5300
 Wire Wire Line
-	9850 5300 9850 5700
+	9850 5300 9850 5750
 Wire Wire Line
 	9700 5600 9850 5600
 Connection ~ 9850 5600
@@ -594,4 +456,32 @@ Wire Wire Line
 Wire Wire Line
 	9200 5600 9100 5600
 Connection ~ 9100 5600
+Text HLabel 7450 3400 0    60   Input ~ 0
+GND
+Text HLabel 7300 2700 0    60   Input ~ 0
++3V3
+Text HLabel 5300 3550 0    60   Input ~ 0
++3V3
+Text HLabel 5300 2300 0    60   Input ~ 0
++3V3
+Text HLabel 7300 5000 1    60   Input ~ 0
++3V3
+Wire Wire Line
+	5300 3550 5450 3550
+Wire Wire Line
+	5300 2300 5450 2300
+Text HLabel 6050 2450 0    60   Input ~ 0
+GND
+Text HLabel 5450 3200 2    60   Input ~ 0
+GND
+Text HLabel 6000 3650 0    60   Input ~ 0
+GND
+Text HLabel 5450 4450 2    60   Input ~ 0
+GND
+Text HLabel 8400 5550 2    60   Input ~ 0
+GND
+Text HLabel 8150 5800 3    60   Input ~ 0
+GND
+Text HLabel 9850 5750 3    60   Input ~ 0
+GND
 $EndSCHEMATC

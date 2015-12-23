@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
-Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-22"
-Rev "5"
+Title "oBeMS Open Interface Board 0001"
+Date "2015-12-23"
+Rev "6"
 Comp "T4 Sustainability"
-Comment1 "PCB design by RE-Innovation"
+Comment1 "PCB design by T4 Sustainability/RE-Innovation"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -207,38 +207,8 @@ F 11 "Value" H 5100 1350 60  0001 C CNN "Supplier 2 Part No"
 	1    5100 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR030
-U 1 1 563790C9
-P 5050 900
-AR Path="/56378529/563790C9" Ref="#PWR030"  Part="1" 
-AR Path="/5637E9E0/563790C9" Ref="#PWR032"  Part="1" 
-AR Path="/5637EAA2/563790C9" Ref="#PWR034"  Part="1" 
-AR Path="/5637EAA4/563790C9" Ref="#PWR041"  Part="1" 
-F 0 "#PWR034" H 5050 860 30  0001 C CNN
-F 1 "+3.3V" H 5050 1010 30  0000 C CNN
-F 2 "" H 5050 900 60  0000 C CNN
-F 3 "" H 5050 900 60  0000 C CNN
-	1    5050 900 
-	1    0    0    -1  
-$EndComp
 Text Notes 4000 2000 0    60   ~ 0
 DIO
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR031
-U 1 1 563790D7
-P 5200 4600
-AR Path="/56378529/563790D7" Ref="#PWR031"  Part="1" 
-AR Path="/5637E9E0/563790D7" Ref="#PWR033"  Part="1" 
-AR Path="/5637EAA2/563790D7" Ref="#PWR035"  Part="1" 
-AR Path="/5637EAA4/563790D7" Ref="#PWR042"  Part="1" 
-F 0 "#PWR035" H 5200 4600 30  0001 C CNN
-F 1 "GND" H 5200 4530 30  0001 C CNN
-F 2 "" H 5200 4600 60  0000 C CNN
-F 3 "" H 5200 4600 60  0000 C CNN
-	1    5200 4600
-	-1   0    0    -1  
-$EndComp
 $Comp
 L CONN_02X12 P19
 U 1 1 563799C8
@@ -663,6 +633,12 @@ Wire Wire Line
 	4500 1100 4500 950 
 Connection ~ 4500 950 
 Wire Wire Line
-	5050 900  5050 950 
+	5050 750  5050 950 
 Connection ~ 5050 950 
+Text HLabel 4900 750  0    60   Input ~ 0
++3V3
+Text HLabel 5200 4600 3    60   Input ~ 0
+GND
+Wire Wire Line
+	4900 750  5050 750 
 $EndSCHEMATC

@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
-Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-22"
-Rev "5"
+Title "oBeMS Open Interface Board 0001"
+Date "2015-12-23"
+Rev "6"
 Comp "T4 Sustainability"
-Comment1 "PCB design by RE-Innovation"
+Comment1 "PCB design by T4 Sustainability/RE-Innovation"
 Comment2 ""
 Comment3 ""
 Comment4 ""

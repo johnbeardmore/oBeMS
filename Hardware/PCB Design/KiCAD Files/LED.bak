@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
-Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-21"
-Rev "4"
+Title "oBeMS Open Interface Board 0001"
+Date "2015-12-23"
+Rev "6"
 Comp "T4 Sustainability"
-Comment1 "PCB design by RE-Innovation"
+Comment1 "PCB design by T4 Sustainability/RE-Innovation"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -106,17 +106,6 @@ F 2 "REInnovationFootprint:LED-5MM_larg_pad" H 4400 3900 60  0001 C CNN
 F 3 "" H 4400 3900 60  0000 C CNN
 	1    4400 3900
 	0    1    1    0   
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR017
-U 1 1 56370E51
-P 4250 4250
-F 0 "#PWR017" H 4250 4250 30  0001 C CNN
-F 1 "GND" H 4250 4180 30  0001 C CNN
-F 2 "" H 4250 4250 60  0000 C CNN
-F 3 "" H 4250 4250 60  0000 C CNN
-	1    4250 4250
-	1    0    0    -1  
 $EndComp
 $Comp
 L R-RESCUE-oBeMs_Pulse_PCB R13
@@ -421,4 +410,6 @@ Wire Wire Line
 	4600 2650 4700 2650
 Wire Wire Line
 	4700 2650 4700 2850
+Text HLabel 4250 4250 0    60   Input ~ 0
+GND
 $EndSCHEMATC

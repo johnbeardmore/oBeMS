@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
-Title "oBeMs Open Pulse Monitor Unit"
-Date "2015-12-22"
-Rev "5"
+Title "oBeMS Open Interface Board 0001"
+Date "2015-12-23"
+Rev "6"
 Comp "T4 Sustainability"
-Comment1 "PCB design by RE-Innovation"
+Comment1 "PCB design by T4 Sustainability/RE-Innovation"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -68,17 +68,6 @@ $EndComp
 Text Notes 4050 2150 0    60   ~ 0
 1 Wire Temp Monitoring
 $Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR014
-U 1 1 56365A89
-P 5550 2550
-F 0 "#PWR014" H 5550 2550 30  0001 C CNN
-F 1 "GND" H 5550 2480 30  0001 C CNN
-F 2 "" H 5550 2550 60  0000 C CNN
-F 3 "" H 5550 2550 60  0000 C CNN
-	1    5550 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L R-RESCUE-oBeMs_Pulse_PCB R1
 U 1 1 56365A8F
 P 4200 2750
@@ -89,32 +78,10 @@ F 3 "" H 4200 2750 60  0000 C CNN
 	1    4200 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V-RESCUE-oBeMs_Pulse_PCB #PWR015
-U 1 1 56365A96
-P 4200 2400
-F 0 "#PWR015" H 4200 2360 30  0001 C CNN
-F 1 "+3.3V" H 4200 2510 30  0000 C CNN
-F 2 "" H 4200 2400 60  0000 C CNN
-F 3 "" H 4200 2400 60  0000 C CNN
-	1    4200 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-oBeMs_Pulse_PCB #PWR016
-U 1 1 56365A9C
-P 4000 3300
-F 0 "#PWR016" H 4000 3300 30  0001 C CNN
-F 1 "GND" H 4000 3230 30  0001 C CNN
-F 2 "" H 4000 3300 60  0000 C CNN
-F 3 "" H 4000 3300 60  0000 C CNN
-	1    4000 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 2450 5550 2450
 Wire Wire Line
-	5550 2450 5550 2550
+	5550 2450 5550 3200
 Wire Wire Line
 	4000 2450 4650 2450
 Wire Wire Line
@@ -122,10 +89,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 3000 4200 3100
 Connection ~ 4200 3100
-Wire Wire Line
-	4200 2400 4200 2500
-Wire Wire Line
-	4000 3300 4000 3200
 Connection ~ 4200 2450
 Wire Wire Line
 	4000 2450 4000 3000
@@ -140,5 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3000 3800 3000
 Wire Wire Line
-	4000 3200 3800 3200
+	5550 3200 3800 3200
+Wire Wire Line
+	4200 2500 4200 2450
 $EndSCHEMATC
