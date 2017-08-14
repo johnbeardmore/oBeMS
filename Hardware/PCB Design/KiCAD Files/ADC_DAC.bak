@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:oBeMs_Pulse_PCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,17 +47,6 @@ $EndDescr
 Text Notes 4600 1850 0    60   ~ 0
 SPI ADC 8 Channel
 $Comp
-L MCP3008 U5
-U 1 1 563769CE
-P 4800 2650
-F 0 "U5" H 4850 3000 60  0000 C CNN
-F 1 "MCP3008" H 4900 1900 60  0000 C CNN
-F 2 "REInnovationFootprint:DIP-16__300_ELL_lg_pad" H 5000 2650 60  0001 C CNN
-F 3 "" H 5000 2650 60  0000 C CNN
-	1    4800 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_02X08 P13
 U 1 1 563769D5
 P 3950 2850
@@ -74,7 +62,7 @@ L C-RESCUE-oBeMs_Pulse_PCB C8
 U 1 1 56376A03
 P 6050 2200
 F 0 "C8" H 6100 2300 50  0000 L CNN
-F 1 "1000n" H 6100 2100 50  0000 L CNN
+F 1 "1u" H 6100 2100 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 6050 2200 60  0001 C CNN
 F 3 "" H 6050 2200 60  0000 C CNN
 F 4 "Value" H 6050 2200 60  0001 C CNN "Description"
@@ -86,17 +74,6 @@ F 9 "Value" H 6050 2200 60  0001 C CNN "Supplier 1 Part No"
 F 10 "Value" H 6050 2200 60  0001 C CNN "Supplier 2"
 F 11 "Value" H 6050 2200 60  0001 C CNN "Supplier 2 Part No"
 	1    6050 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCP3008 U6
-U 1 1 56376A0A
-P 4800 3900
-F 0 "U6" H 4850 4250 60  0000 C CNN
-F 1 "MCP3008" H 4900 3200 60  0000 C CNN
-F 2 "REInnovationFootprint:DIP-16__300_ELL_lg_pad" H 5000 3900 60  0001 C CNN
-F 3 "" H 5000 3900 60  0000 C CNN
-	1    4800 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -115,7 +92,7 @@ L C-RESCUE-oBeMs_Pulse_PCB C7
 U 1 1 56376A2C
 P 6000 3400
 F 0 "C7" H 6050 3500 50  0000 L CNN
-F 1 "1000n" H 6050 3300 50  0000 L CNN
+F 1 "1u" H 6050 3300 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 6000 3400 60  0001 C CNN
 F 3 "" H 6000 3400 60  0000 C CNN
 F 4 "Value" H 6000 3400 60  0001 C CNN "Description"
@@ -156,7 +133,7 @@ L MCP4802 U7
 U 1 1 563857C0
 P 7650 5500
 F 0 "U7" H 7650 5800 60  0000 C CNN
-F 1 "MCP4802" H 7600 5150 60  0000 C CNN
+F 1 "MCP4812" H 7600 5150 60  0000 C CNN
 F 2 "REInnovationFootprint:DIP-8_300_ELL" H 7650 5500 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22249A.pdf" H 7650 5500 60  0001 C CNN
 F 4 "8 Bit Dual DAC" H 7650 5500 60  0001 C CNN "Description"
@@ -182,7 +159,7 @@ F 1 "SPI_ADC_DAC" V 7850 3050 50  0000 C CNN
 F 2 "REInnovationFootprint:Pin_Header_Straight_1x08" H 7750 3050 60  0001 C CNN
 F 3 "" H 7750 3050 60  0000 C CNN
 	1    7750 3050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4200 2500 4450 2500
@@ -266,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 3450 5650 3950
 Wire Wire Line
-	5650 3950 5350 3950
+	5350 3950 5750 3950
 Wire Wire Line
 	3700 4350 3500 4350
 Connection ~ 3500 4350
@@ -300,8 +277,6 @@ Wire Wire Line
 	5350 2900 7550 2900
 Wire Wire Line
 	5350 3000 7550 3000
-Wire Wire Line
-	5350 3100 7550 3100
 Wire Wire Line
 	6850 3200 7550 3200
 Wire Wire Line
@@ -358,11 +333,7 @@ Connection ~ 6550 2800
 Connection ~ 6650 2900
 Connection ~ 6750 3000
 Wire Wire Line
-	7300 5500 7200 5500
-Wire Wire Line
-	7200 5500 7200 3300
-Wire Wire Line
-	7200 3300 7550 3300
+	7100 5500 7300 5500
 Wire Wire Line
 	6550 5600 7300 5600
 Connection ~ 6550 4050
@@ -390,7 +361,7 @@ L C-RESCUE-oBeMs_Pulse_PCB C9
 U 1 1 56387659
 P 7900 4850
 F 0 "C9" H 7950 4950 50  0000 L CNN
-F 1 "100n" H 7950 4750 50  0000 L CNN
+F 1 "1u" H 7950 4750 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 7900 4850 60  0001 C CNN
 F 3 "" H 7900 4850 60  0000 C CNN
 F 4 "Value" H 7900 4850 60  0001 C CNN "Description"
@@ -484,4 +455,110 @@ Text HLabel 8150 5800 3    60   Input ~ 0
 GND
 Text HLabel 9850 5750 3    60   Input ~ 0
 GND
+$Comp
+L MCP3008_16pin U6
+U 1 1 599191BF
+P 5150 4050
+F 0 "U6" H 4700 4500 50  0000 C CNN
+F 1 "MCP3008" H 4950 3500 50  0000 C CNN
+F 2 "REInnovationFootprint:DIP-16__300_ELL_lg_pad" H 5050 3950 50  0001 C CNN
+F 3 "" H 5150 4050 50  0000 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP3008_16pin U5
+U 1 1 5991993D
+P 5150 2800
+F 0 "U5" H 4700 3250 50  0000 C CNN
+F 1 "MCP3008" H 4950 2250 50  0000 C CNN
+F 2 "REInnovationFootprint:DIP-16__300_ELL_lg_pad" H 5050 2700 50  0001 C CNN
+F 3 "" H 5150 2800 50  0000 C CNN
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 5750 3950 2    60   Input ~ 0
+GND
+Connection ~ 5650 3950
+Text HLabel 5500 2100 2    60   Input ~ 0
+GND
+Wire Wire Line
+	5500 2100 5350 2100
+Wire Wire Line
+	5350 2100 5350 2200
+Connection ~ 5350 2200
+$Comp
+L R R55
+U 1 1 5991CDDF
+P 7350 2250
+F 0 "R55" V 7430 2250 50  0000 C CNN
+F 1 "100k" V 7350 2250 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" V 7280 2250 50  0001 C CNN
+F 3 "" H 7350 2250 50  0000 C CNN
+	1    7350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R56
+U 1 1 5991CF0E
+P 7550 2250
+F 0 "R56" V 7630 2250 50  0000 C CNN
+F 1 "100k" V 7550 2250 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" V 7480 2250 50  0001 C CNN
+F 3 "" H 7550 2250 50  0000 C CNN
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2400 7350 3300
+Wire Wire Line
+	7450 2500 7450 3200
+Connection ~ 7450 3200
+Text HLabel 7300 1950 0    60   Input ~ 0
++3V3
+Wire Wire Line
+	7300 1950 8050 1950
+Wire Wire Line
+	7550 1950 7550 2100
+Wire Wire Line
+	7350 2100 7350 1950
+Connection ~ 7350 1950
+Text Notes 8250 1950 0    60   ~ 0
+~CS~ PULL UP
+Wire Wire Line
+	7350 3300 7550 3300
+Wire Wire Line
+	5350 3100 7350 3100
+Connection ~ 7350 3100
+Wire Wire Line
+	7450 2500 7550 2500
+Wire Wire Line
+	7550 2500 7550 2400
+Wire Wire Line
+	7550 3100 7500 3100
+Wire Wire Line
+	7500 3100 7500 4550
+Wire Wire Line
+	7500 4550 7100 4550
+Wire Wire Line
+	7100 4550 7100 5500
+$Comp
+L R R57
+U 1 1 59921707
+P 8050 2250
+F 0 "R57" V 8130 2250 50  0000 C CNN
+F 1 "100k" V 8050 2250 50  0000 C CNN
+F 2 "REInnovationFootprint:TH_Resistor_1" V 7980 2250 50  0001 C CNN
+F 3 "" H 8050 2250 50  0000 C CNN
+	1    8050 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2400 8050 3700
+Wire Wire Line
+	8050 3700 7500 3700
+Connection ~ 7500 3700
+Wire Wire Line
+	8050 1950 8050 2100
+Connection ~ 7550 1950
 $EndSCHEMATC

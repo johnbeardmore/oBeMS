@@ -1,0 +1,3398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/Google Drive REI/GitHub Repositories/oBeMS/Hardware/PCB Design/KiCAD Files/oBeMs_Pulse_PCB.sch</source>
+    <date>13/01/2016 10:27:57</date>
+    <tool>Eeschema 4.0.0-rc2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>oBeMs_Pulse_PCB.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerSupply/" tstamps="/563600A1/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>PSU.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/TemperatureSensor/" tstamps="/563652D9/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>TemperatureSensor.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Watch Dog Timer/" tstamps="/56368FA0/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>WDT.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LED IO/" tstamps="/5636FAE1/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>LED.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/ADC SPI x2 + DAC/" tstamps="/56375F64/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>ADC_DAC.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/DIGITAL IO 1-6/" tstamps="/56378529/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>IO.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/DIGITAL IO 7-12/" tstamps="/5637E9E0/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>IO.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/DIGITAL IO 13-18/" tstamps="/5637EAA2/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>IO.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Prototyping Area/" tstamps="/56384A5B/">
+      <title_block>
+        <title>oBeMS Open Interface Board 0001</title>
+        <company>T4 Sustainability</company>
+        <rev>6</rev>
+        <date>2015-12-23</date>
+        <source>PrototypeArea.sch</source>
+        <comment number="1" value="PCB design by T4 Sustainability/RE-Innovation"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P6">
+      <value>AC_INPUT</value>
+      <footprint>REInnovationFootprint:TH_3W_CamdenBoss</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1564536.pdf</datasheet>
+      <fields>
+        <field name="Description">240V AC &gt;3A</field>
+        <field name="Manufacturer">CamdenBoss</field>
+        <field name="Manufacturer Part No">CTB9358/3</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">CN11626</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5613F5F8</tstamp>
+    </comp>
+    <comp ref="EN1">
+      <value>Enclosure</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>561441EC</tstamp>
+    </comp>
+    <comp ref="PCB1">
+      <value>PCB</value>
+      <footprint>REInnovationFootprint:PCB_120x150_WISKA</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5614459B</tstamp>
+    </comp>
+    <comp ref="LG2">
+      <value>T4 Logo</value>
+      <footprint>PCB_logo:T4_32mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56144672</tstamp>
+    </comp>
+    <comp ref="CPU1">
+      <value>RPi_B</value>
+      <footprint>REInnovationFootprint:RPi_B_B+_MOUNTING</footprint>
+      <libsource lib="matts_components" part="RPi_B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5613F97F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>HARD_WDT</value>
+      <footprint>REInnovationFootprint:TH_4x1_CONN</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5616EFF9</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>AC_INPUT_PLUG</value>
+      <datasheet>http://www.farnell.com/datasheets/1826287.pdf</datasheet>
+      <fields>
+        <field name="Description">240V AC &gt;3A PLUG</field>
+        <field name="Manufacturer">CamdenBoss</field>
+        <field name="Manufacturer Part No">CTB9208/3</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">CN11606</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562ABE6E</tstamp>
+    </comp>
+    <comp ref="LG3">
+      <value>OSHW Logo</value>
+      <footprint>PCB_logo:OSHW_13mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56365B30</tstamp>
+    </comp>
+    <comp ref="LG1">
+      <value>REI Logo</value>
+      <footprint>matts_components:reinnovation_logo_15mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56365BE2</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>LED 1-4</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563AC56A</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>LED 5-8</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563AC7B6</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>LT_PWR</value>
+      <footprint>REInnovationFootprint:TH_CONN_2W</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5675A266</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>AC Cover Mount Hole</value>
+      <footprint>REInnovationFootprint:3mm_hole</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5675BB5B</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>AC Cover Mount Hole</value>
+      <footprint>REInnovationFootprint:3mm_hole</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5675BC36</tstamp>
+    </comp>
+    <comp ref="LG4">
+      <value>V0000</value>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5677EAF3</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>1WIRE</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56780130</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>REInnovationFootprint:TH_Fuse_Holder_5-20_CPC</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1564551.pdf</datasheet>
+      <fields>
+        <field name="Description">240V AC 5A Fuseholder</field>
+        <field name="Manufacturer">Unbranded</field>
+        <field name="Manufacturer Part No">MCHTC-100M</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">FF01942 </field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56361137</tstamp>
+    </comp>
+    <comp ref="PSU1">
+      <value>PSU_10W_5V</value>
+      <footprint>REInnovationFootprint:TH_DCDC_PowerPac_5W_10W</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1683226.pdf</datasheet>
+      <fields>
+        <field name="Description">240V AC to 5V PSU 5/10W 1/2A</field>
+        <field name="Manufacturer">Powerpax</field>
+        <field name="Manufacturer Part No">PD05-20B05</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">PW03300</field>
+      </fields>
+      <libsource lib="matts_components" part="PSU_10W_5V"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56361146</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>REInnovationFootprint:C2V8_VandA</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56363C21</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1000u</value>
+      <footprint>REInnovationFootprint:C2V8_VandA</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56363C51</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>330uH</value>
+      <footprint>REInnovationFootprint:TH_Inductor</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/0d90/0900766b80d90b31.pdf</datasheet>
+      <fields>
+        <field name="Description">Inductor. 1A RMS. </field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer Part No"> ELC11D331F</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">675-5428</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56363C61</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100u</value>
+      <footprint>REInnovationFootprint:C2V8_VandA</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56729E4B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1000u</value>
+      <footprint>REInnovationFootprint:C2V8_VandA</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56729E79</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>100uH</value>
+      <footprint>REInnovationFootprint:TH_Inductor_ELC18B101L</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/002b/0900766b8002b270.pdf</datasheet>
+      <fields>
+        <field name="Description">Inductor. 3A RMS. </field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer Part No">ELC18B101L</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">233-5409</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56729E88</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N5822</value>
+      <footprint>REInnovationFootprint:TH_Diode_DO-201AD</footprint>
+      <fields>
+        <field name="Description">3A 40V Shottky Diode</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No">1N5822</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">687-0877</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="ZENER-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56729E97</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LM2576</value>
+      <footprint>REInnovationFootprint:TO220_5PIN</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <fields>
+        <field name="Notes">3A step-down DC DC converter 5V</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part No">LM2576T-5.0/LF03</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No"> 460-477</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LM2576"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>5672AAFC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM2575</value>
+      <footprint>REInnovationFootprint:TO220_5PIN</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/0780/0900766b807800ee.pdf</datasheet>
+      <fields>
+        <field name="Description">1A 3.3V DC DC converter IC</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part No">LM2575T-3.3/NOPB</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">533-3169</field>
+      </fields>
+      <libsource lib="matts_components" part="LM2575"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56363C42</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>BRIDGE</value>
+      <footprint>REInnovationFootprint:TH_BridgeRect_8A</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/1404/0900766b81404e75.pdf</datasheet>
+      <fields>
+        <field name="Description">8A Bridge Rectifier</field>
+        <field name="Manufacturer">Taiwan Semiconductor</field>
+        <field name="Manufacturer Part No">KBU807G</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">687-5914</field>
+      </fields>
+      <libsource lib="device" part="BRIDGE"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>567840E6</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>EXT_CAP</value>
+      <footprint>matts_components:SIL-2_wide_lg_pad</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56784C40</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>5V</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56785623</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>3V3</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>56785694</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>GND</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>567856E7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5822</value>
+      <footprint>REInnovationFootprint:TH_Diode_DO-201AD</footprint>
+      <fields>
+        <field name="Description">3A 40V Shottky Diode</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No">1N5822</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">687-0877</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="ZENER-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>5678F5B3</tstamp>
+    </comp>
+    <comp ref="P30">
+      <value>UNREG_DC</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/PowerSupply/" tstamps="/563600A1/"/>
+      <tstamp>567A8A85</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DS18B20</value>
+      <footprint>REInnovationFootprint:TO92_DS18B20</footprint>
+      <datasheet>https://uk.rs-online.com/web/p/temperature-humidity-sensors/7860809/</datasheet>
+      <fields>
+        <field name="Description">1 Wire. Serial. Temperature sensor</field>
+        <field name="Manufacturer">Maxim</field>
+        <field name="Manufacturer Part No"> DS18B20+PAR</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">786-0809</field>
+      </fields>
+      <libsource lib="matts_components" part="DS18B20"/>
+      <sheetpath names="/TemperatureSensor/" tstamps="/563652D9/"/>
+      <tstamp>56365A81</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/TemperatureSensor/" tstamps="/563652D9/"/>
+      <tstamp>56365A8F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLC555</value>
+      <footprint>REInnovationFootprint:DIP-8__300_ELL</footprint>
+      <libsource lib="matts_components" part="TLC555"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A483</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>matts_components:C1_wide_lg_pad_2</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="C-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A48A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>matts_components:C1_wide_lg_pad_2</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A491</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>REInnovationFootprint:TH_Diode_1</footprint>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A498</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A49F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>47u</value>
+      <footprint>REInnovationFootprint:C2V8_VandA</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A4A6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>matts_components:C1_wide_lg_pad_2</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A4AD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A4C7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A4EC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A514</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A51B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A538</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>39k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A53F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC546</value>
+      <footprint>matts_components:TO92-EBC_large_pad</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/078e/0900766b8078ea72.pdf</datasheet>
+      <fields>
+        <field name="Description">NPN. 1A. 80V</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part No">BC639</field>
+        <field name="Supplier 1">RS</field>
+        <field name="Supplier 1 Part No">545-2276</field>
+      </fields>
+      <libsource lib="device" part="NPN"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A54F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>5636A55D</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>500k</value>
+      <footprint>matts_components:RV_various_lg_pad</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A2ED4</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>4017</value>
+      <footprint>REInnovationFootprint:DIP-16__300_ELL_lg_pad</footprint>
+      <libsource lib="cmos4000" part="4017"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A4DE1</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>GRN</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A5633</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC556</value>
+      <footprint>matts_components:TO92-PNP_large_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-rescue" part="PNP-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A5834</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>YEL</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A6520</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>ORG</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A658A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/Watch Dog Timer/" tstamps="/56368FA0/"/>
+      <tstamp>563A7709</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E2D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E3C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E43</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E4A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E5F</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E6E</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E75</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E7C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E8B</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370E9A</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370EA1</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370EA8</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370EB7</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370EC6</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370ECD</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>REInnovationFootprint:LED-5MM_larg_pad</footprint>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/LED IO/" tstamps="/5636FAE1/"/>
+      <tstamp>56370ED4</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MCP3008</value>
+      <footprint>REInnovationFootprint:DIP-16__300_ELL_lg_pad</footprint>
+      <libsource lib="matts_components" part="MCP3008"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>563769CE</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>ADC_0-7</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>563769D5</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1000n</value>
+      <footprint>matts_components:C1_wide_lg_pad_2</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="C-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56376A03</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP3008</value>
+      <footprint>REInnovationFootprint:DIP-16__300_ELL_lg_pad</footprint>
+      <libsource lib="matts_components" part="MCP3008"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56376A0A</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>ADC_8-15</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="conn" part="CONN_02X08"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56376A11</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1000n</value>
+      <footprint>matts_components:C1_wide_lg_pad_2</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="C-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56376A2C</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>ADC_VREF_1</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56376A33</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>ADC_VREF_2</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56376A3A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MCP4802</value>
+      <footprint>REInnovationFootprint:DIP-8_300_ELL</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22249A.pdf</datasheet>
+      <fields>
+        <field name="Description">8 Bit Dual DAC</field>
+        <field name="Manufacturer">Microchip</field>
+      </fields>
+      <libsource lib="matts_components" part="MCP4802"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>563857C0</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>SPI_ADC_DAC</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56385A18</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>matts_components:C1_wide_lg_pad_2</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="C-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>56387659</tstamp>
+    </comp>
+    <comp ref="P34">
+      <value>DAC</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/ADC SPI x2 + DAC/" tstamps="/56375F64/"/>
+      <tstamp>5678A781</tstamp>
+    </comp>
+    <comp ref="P21">
+      <value>DIO_INPUT</value>
+      <footprint>REInnovationFootprint:HEADER_12Way_Wiedermuller_SX</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/0fdb/0900766b80fdbcf2.pdf</datasheet>
+      <fields>
+        <field name="Description">12 Way Pluggable Connector.  SL 5.08 Series</field>
+        <field name="Manufacturer">Wiedermuller</field>
+        <field name="Manufacturer Part No">1511360000</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">CN12535 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637905A</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>56379077</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>56379086</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>56379095</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>563790A4</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>563790B3</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>563790C2</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>PULL_UP</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>563799C8</tstamp>
+    </comp>
+    <comp ref="P20">
+      <value>GROUND</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>56379AE8</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>DIO_OUTPUT</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>56379B52</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637A11D</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637A12B</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637A139</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637A147</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637A155</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 1-6/" tstamps="/56378529/"/>
+      <tstamp>5637A163</tstamp>
+    </comp>
+    <comp ref="P25">
+      <value>DIO_INPUT</value>
+      <footprint>REInnovationFootprint:HEADER_12Way_Wiedermuller_SX</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/0fdb/0900766b80fdbcf2.pdf</datasheet>
+      <fields>
+        <field name="Description">12 Way Pluggable Connector.  SL 5.08 Series</field>
+        <field name="Manufacturer">Wiedermuller</field>
+        <field name="Manufacturer Part No">1511360000</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">CN12535 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637905A</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>56379077</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>56379086</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>56379095</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>563790A4</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>563790B3</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>563790C2</tstamp>
+    </comp>
+    <comp ref="P23">
+      <value>PULL_UP</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>563799C8</tstamp>
+    </comp>
+    <comp ref="P24">
+      <value>GROUND</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>56379AE8</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>DIO_OUTPUT</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>56379B52</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637A11D</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637A12B</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637A139</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637A147</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637A155</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 7-12/" tstamps="/5637E9E0/"/>
+      <tstamp>5637A163</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>DIO_INPUT</value>
+      <footprint>REInnovationFootprint:HEADER_12Way_Wiedermuller_SX</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/0fdb/0900766b80fdbcf2.pdf</datasheet>
+      <fields>
+        <field name="Description">12 Way Pluggable Connector.  SL 5.08 Series</field>
+        <field name="Manufacturer">Wiedermuller</field>
+        <field name="Manufacturer Part No">1511360000</field>
+        <field name="Supplier 1">CPC</field>
+        <field name="Supplier 1 Part No">CN12535 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637905A</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>56379077</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>56379086</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>56379095</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>563790A4</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>563790B3</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>563790C2</tstamp>
+    </comp>
+    <comp ref="P27">
+      <value>PULL_UP</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>563799C8</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>GROUND</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>56379AE8</tstamp>
+    </comp>
+    <comp ref="P26">
+      <value>DIO_OUTPUT</value>
+      <footprint>REInnovationFootprint:Pin_Header_Straight_2x12</footprint>
+      <fields/>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>56379B52</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637A11D</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637A12B</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637A139</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637A147</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637A155</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>120</value>
+      <footprint>REInnovationFootprint:TH_Resistor_1</footprint>
+      <fields>
+        <field name="Description">Value</field>
+        <field name="Notes">Value</field>
+        <field name="Manufacturer">Value</field>
+        <field name="Manufacturer Part No">Value</field>
+        <field name="Supplier 1">Value</field>
+        <field name="Supplier 1 Part No">Value</field>
+        <field name="Supplier 2">Value</field>
+        <field name="Supplier 2 Part No">Value</field>
+      </fields>
+      <libsource lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB"/>
+      <sheetpath names="/DIGITAL IO 13-18/" tstamps="/5637EAA2/"/>
+      <tstamp>5637A163</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>V1?</value>
+      <footprint>REInnovationFootprint:SIL-3_solder_connect</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/Prototyping Area/" tstamps="/56384A5B/"/>
+      <tstamp>56792277</tstamp>
+    </comp>
+    <comp ref="P36">
+      <value>PROTOTYPING_AREA</value>
+      <footprint>REInnovationFootprint:PROTO_AREA_16x14</footprint>
+      <libsource lib="conn" part="CONN_01X18"/>
+      <sheetpath names="/Prototyping Area/" tstamps="/56384A5B/"/>
+      <tstamp>567AD735</tstamp>
+    </comp>
+    <comp ref="P31">
+      <value>V2?</value>
+      <footprint>REInnovationFootprint:SIL-3_solder_connect</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/Prototyping Area/" tstamps="/56384A5B/"/>
+      <tstamp>567AD838</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cmos4000" part="4017">
+      <description>Jonhson Counter ( 10 outputs )</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q5" type="output"/>
+        <pin num="2" name="Q1" type="output"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q2" type="output"/>
+        <pin num="5" name="Q6" type="output"/>
+        <pin num="6" name="Q7" type="output"/>
+        <pin num="7" name="Q3" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="Q8" type="output"/>
+        <pin num="10" name="Q4" type="output"/>
+        <pin num="11" name="Q9" type="output"/>
+        <pin num="12" name="Cout" type="output"/>
+        <pin num="13" name="CKEN" type="input"/>
+        <pin num="14" name="CLK" type="input"/>
+        <pin num="15" name="Reset" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="BRIDGE">
+      <description>Pont de Diodes</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BRIDGE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-cache" part="C-RESCUE-oBeMs_Pulse_PCB">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-oBeMs_Pulse_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X12">
+      <footprints>
+        <fp>Pin_Header_Straight_1X12</fp>
+        <fp>Pin_Header_Angled_1X12</fp>
+        <fp>Socket_Strip_Straight_1X12</fp>
+        <fp>Socket_Strip_Angled_1X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X18">
+      <footprints>
+        <fp>Pin_Header_Straight_1X18</fp>
+        <fp>Pin_Header_Angled_1X18</fp>
+        <fp>Socket_Strip_Straight_1X18</fp>
+        <fp>Socket_Strip_Angled_1X18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X08">
+      <footprints>
+        <fp>Pin_Header_Straight_2X08</fp>
+        <fp>Pin_Header_Angled_2X08</fp>
+        <fp>Socket_Strip_Straight_2X08</fp>
+        <fp>Socket_Strip_Angled_2X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X12">
+      <footprints>
+        <fp>Pin_Header_Straight_2X12</fp>
+        <fp>Pin_Header_Angled_2X12</fp>
+        <fp>Socket_Strip_Straight_2X12</fp>
+        <fp>Socket_Strip_Angled_2X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-cache" part="CP1-RESCUE-oBeMs_Pulse_PCB">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-oBeMs_Pulse_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="DS18B20">
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS18B20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="DATA" type="input"/>
+        <pin num="3" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <docs>http://www.farnell.com/datasheets/1648358.pdf</docs>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-cache" part="LED-RESCUE-oBeMs_Pulse_PCB">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-oBeMs_Pulse_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="LM2575">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2575</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="V_out" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~ON" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-cache" part="LM2576">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2576</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="V_out" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~ON" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="MCP3008">
+      <description>10-Bit I2C ADC 8 Channel</description>
+      <docs>http://docs-europe.electrocomponents.com/webdocs/1380/0900766b81380acd.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3008</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="input"/>
+        <pin num="2" name="CH1" type="input"/>
+        <pin num="3" name="CH2" type="input"/>
+        <pin num="4" name="CH3" type="input"/>
+        <pin num="5" name="CH4" type="input"/>
+        <pin num="6" name="CH5" type="input"/>
+        <pin num="7" name="CH6" type="input"/>
+        <pin num="8" name="CH7" type="input"/>
+        <pin num="9" name="DGND" type="input"/>
+        <pin num="10" name="SHDN/~CS" type="input"/>
+        <pin num="11" name="Din" type="input"/>
+        <pin num="12" name="Dout" type="input"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="AGND" type="input"/>
+        <pin num="15" name="Vref" type="input"/>
+        <pin num="16" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="MCP4802">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4802</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="input"/>
+        <pin num="2" name="~CS" type="input"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="~LDAC" type="input"/>
+        <pin num="6" name="VoutB" type="input"/>
+        <pin num="7" name="Vss" type="input"/>
+        <pin num="8" name="VoutA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="NPN">
+      <docs>transistors/bipolar/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-rescue" part="PNP-RESCUE-oBeMs_Pulse_PCB">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PNP-RESCUE-oBeMs_Pulse_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="PSU_10W_5V">
+      <fields>
+        <field name="Reference">PSU</field>
+        <field name="Value">PSU_10W_5V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N" type="passive"/>
+        <pin num="2" name="L" type="passive"/>
+        <pin num="3" name="+5V" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-cache" part="R-RESCUE-oBeMs_Pulse_PCB">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-oBeMs_Pulse_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matts_components" part="RPi_B">
+      <description>Raspberry Pi Model B </description>
+      <fields>
+        <field name="Reference">CPU</field>
+        <field name="Value">RPi_B</field>
+      </fields>
+    </libpart>
+    <libpart lib="matts_components" part="TLC555">
+      <description>Tomer IC</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlc555.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="TRIG" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="RST" type="input"/>
+        <pin num="5" name="CONT" type="input"/>
+        <pin num="6" name="THRES" type="input"/>
+        <pin num="7" name="DisCh" type="input"/>
+        <pin num="8" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="oBeMs_Pulse_PCB-cache" part="ZENER-RESCUE-oBeMs_Pulse_PCB">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER-RESCUE-oBeMs_Pulse_PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="cmos4000">
+      <uri>C:\Program Files\KiCad\share\kicad\library\cmos4000.lib</uri>
+    </library>
+    <library logical="oBeMs_Pulse_PCB-rescue">
+      <uri>oBeMs_Pulse_PCB-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\library\device.lib</uri>
+    </library>
+    <library logical="matts_components">
+      <uri>E:\Google Drive REI\KiCAD\KiCad My Libraries\matts_components.lib</uri>
+    </library>
+    <library logical="oBeMs_Pulse_PCB-cache">
+      <uri>oBeMs_Pulse_PCB-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/PowerSupply/VIN_B">
+      <node ref="P8" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="2" name="/LED IO/LED2">
+      <node ref="P7" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="3" name="/LED IO/LED1">
+      <node ref="P7" pin="3"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="4" name="/LED IO/LED7">
+      <node ref="R18" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="5" name="/LED IO/LED6">
+      <node ref="R17" pin="1"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="6" name="/LED IO/LED5">
+      <node ref="P4" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="7" name="/LED IO/LED4">
+      <node ref="P4" pin="4"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="8" name="/PowerSupply/VIN_A">
+      <node ref="P8" pin="1"/>
+      <node ref="D16" pin="4"/>
+    </net>
+    <net code="9" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(LG4-Pad1)">
+      <node ref="LG4" pin="1"/>
+    </net>
+    <net code="12" name="+5V">
+      <node ref="P31" pin="3"/>
+      <node ref="P10" pin="7"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P10" pin="6"/>
+      <node ref="P10" pin="5"/>
+      <node ref="P10" pin="16"/>
+      <node ref="P10" pin="15"/>
+      <node ref="P10" pin="14"/>
+      <node ref="P10" pin="13"/>
+      <node ref="P10" pin="12"/>
+      <node ref="P10" pin="11"/>
+      <node ref="P10" pin="10"/>
+      <node ref="P10" pin="9"/>
+      <node ref="L2" pin="2"/>
+      <node ref="P10" pin="8"/>
+      <node ref="U8" pin="4"/>
+      <node ref="P10" pin="1"/>
+      <node ref="P10" pin="2"/>
+      <node ref="P10" pin="3"/>
+      <node ref="P10" pin="4"/>
+      <node ref="PSU1" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P9" pin="3"/>
+    </net>
+    <net code="13" name="/PowerSupply/N">
+      <node ref="PSU1" pin="1"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="15" name="/PowerSupply/L">
+      <node ref="F1" pin="1"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="16" name="GNDPWR">
+      <node ref="P6" pin="3"/>
+    </net>
+    <net code="17" name="Net-(P5-Pad2)">
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="18" name="+3.3V">
+      <node ref="R23" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="P11" pin="11"/>
+      <node ref="P11" pin="4"/>
+      <node ref="P11" pin="5"/>
+      <node ref="P11" pin="6"/>
+      <node ref="P11" pin="7"/>
+      <node ref="P11" pin="8"/>
+      <node ref="P11" pin="9"/>
+      <node ref="P11" pin="10"/>
+      <node ref="P11" pin="3"/>
+      <node ref="P11" pin="12"/>
+      <node ref="P11" pin="13"/>
+      <node ref="P11" pin="14"/>
+      <node ref="P11" pin="15"/>
+      <node ref="P11" pin="16"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="P11" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R49" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="P17" pin="1"/>
+      <node ref="P11" pin="2"/>
+      <node ref="P9" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U6" pin="16"/>
+      <node ref="C8" pin="1"/>
+      <node ref="P16" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="P31" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R44" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="P20" pin="22"/>
+      <node ref="P20" pin="24"/>
+      <node ref="P20" pin="12"/>
+      <node ref="P20" pin="14"/>
+      <node ref="P20" pin="16"/>
+      <node ref="P34" pin="4"/>
+      <node ref="U4" pin="8"/>
+      <node ref="P34" pin="6"/>
+      <node ref="P34" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="P20" pin="18"/>
+      <node ref="P20" pin="4"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="P20" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="P20" pin="6"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U6" pin="9"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P34" pin="8"/>
+      <node ref="P20" pin="20"/>
+      <node ref="P20" pin="8"/>
+      <node ref="P20" pin="10"/>
+      <node ref="D8" pin="2"/>
+      <node ref="P17" pin="8"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U1" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P28" pin="2"/>
+      <node ref="P28" pin="4"/>
+      <node ref="P28" pin="6"/>
+      <node ref="P28" pin="8"/>
+      <node ref="P28" pin="10"/>
+      <node ref="P28" pin="20"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D16" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P12" pin="6"/>
+      <node ref="P12" pin="7"/>
+      <node ref="P12" pin="8"/>
+      <node ref="P12" pin="9"/>
+      <node ref="P12" pin="10"/>
+      <node ref="P12" pin="11"/>
+      <node ref="P12" pin="12"/>
+      <node ref="P12" pin="13"/>
+      <node ref="P12" pin="5"/>
+      <node ref="P12" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="PSU1" pin="4"/>
+      <node ref="P12" pin="16"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P36" pin="18"/>
+      <node ref="P12" pin="14"/>
+      <node ref="P12" pin="1"/>
+      <node ref="P12" pin="2"/>
+      <node ref="P12" pin="3"/>
+      <node ref="P12" pin="4"/>
+      <node ref="P28" pin="12"/>
+      <node ref="P28" pin="22"/>
+      <node ref="P28" pin="14"/>
+      <node ref="P28" pin="24"/>
+      <node ref="P28" pin="16"/>
+      <node ref="P28" pin="18"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P36" pin="2"/>
+      <node ref="P24" pin="16"/>
+      <node ref="P24" pin="12"/>
+      <node ref="P24" pin="22"/>
+      <node ref="P24" pin="14"/>
+      <node ref="P24" pin="24"/>
+      <node ref="D12" pin="2"/>
+      <node ref="P24" pin="18"/>
+      <node ref="U4" pin="13"/>
+      <node ref="P24" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="P24" pin="2"/>
+      <node ref="P24" pin="6"/>
+      <node ref="P24" pin="8"/>
+      <node ref="P24" pin="10"/>
+      <node ref="P24" pin="20"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="5"/>
+      <node ref="D15" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="20" name="/TemperatureSensor/D-1-Wire">
+      <node ref="P1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="21" name="/LED IO/LED3">
+      <node ref="R14" pin="1"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="22" name="Net-(EN1-Pad1)">
+      <node ref="EN1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(PCB1-Pad1)">
+      <node ref="PCB1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(LG2-Pad1)">
+      <node ref="LG2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(LG1-Pad1)">
+      <node ref="LG1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P5-Pad3)">
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="27" name="/Watch Dog Timer/WDT_OUT">
+      <node ref="P3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="28" name="Net-(LG3-Pad1)">
+      <node ref="LG3" pin="1"/>
+    </net>
+    <net code="29" name="/Watch Dog Timer/WDT_IN">
+      <node ref="R4" pin="2"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="30" name="/LED IO/LED0">
+      <node ref="P7" pin="4"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="PSU1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="D16" pin="3"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P30" pin="6"/>
+      <node ref="U8" pin="1"/>
+      <node ref="P30" pin="1"/>
+      <node ref="P30" pin="2"/>
+      <node ref="P30" pin="3"/>
+      <node ref="P30" pin="5"/>
+      <node ref="P30" pin="4"/>
+    </net>
+    <net code="35" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="37" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="38" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="40" name="Net-(D12-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q2-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="44" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="45" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="48" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="49" name="Net-(C3-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="51" name="Net-(Q1-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="52" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="53" name="Net-(C5-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="54" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="55" name="Net-(R8-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="56" name="Net-(R8-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="57" name="Net-(RV1-Pad3)">
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="58" name="Net-(D9-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="59" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D7-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D5-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D10-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="65" name="Net-(D11-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="66" name="Net-(P17-Pad2)">
+      <node ref="P17" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="67" name="Net-(P17-Pad3)">
+      <node ref="U6" pin="12"/>
+      <node ref="P17" pin="3"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="68" name="Net-(P17-Pad4)">
+      <node ref="U5" pin="11"/>
+      <node ref="P17" pin="4"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="69" name="Net-(P17-Pad6)">
+      <node ref="U6" pin="10"/>
+      <node ref="P17" pin="6"/>
+    </net>
+    <net code="70" name="Net-(P14-Pad10)">
+      <node ref="U6" pin="5"/>
+      <node ref="P14" pin="10"/>
+    </net>
+    <net code="71" name="Net-(P14-Pad12)">
+      <node ref="P14" pin="12"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="72" name="Net-(P14-Pad14)">
+      <node ref="P14" pin="14"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="73" name="Net-(P14-Pad16)">
+      <node ref="P14" pin="16"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="74" name="Net-(P14-Pad1)">
+      <node ref="P14" pin="3"/>
+      <node ref="P14" pin="5"/>
+      <node ref="P14" pin="11"/>
+      <node ref="P14" pin="1"/>
+      <node ref="U6" pin="14"/>
+      <node ref="P14" pin="9"/>
+      <node ref="P14" pin="7"/>
+      <node ref="P14" pin="13"/>
+      <node ref="P14" pin="15"/>
+    </net>
+    <net code="75" name="Net-(P15-Pad2)">
+      <node ref="U6" pin="15"/>
+      <node ref="P15" pin="2"/>
+    </net>
+    <net code="76" name="Net-(P17-Pad5)">
+      <node ref="U5" pin="10"/>
+      <node ref="P17" pin="5"/>
+    </net>
+    <net code="77" name="Net-(P34-Pad1)">
+      <node ref="U7" pin="8"/>
+      <node ref="P34" pin="3"/>
+      <node ref="P34" pin="1"/>
+    </net>
+    <net code="78" name="Net-(P17-Pad7)">
+      <node ref="P17" pin="7"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="79" name="Net-(P34-Pad5)">
+      <node ref="U7" pin="6"/>
+      <node ref="P34" pin="5"/>
+      <node ref="P34" pin="7"/>
+    </net>
+    <net code="80" name="Net-(P14-Pad2)">
+      <node ref="U6" pin="1"/>
+      <node ref="P14" pin="2"/>
+    </net>
+    <net code="81" name="Net-(P14-Pad4)">
+      <node ref="P14" pin="4"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="82" name="Net-(P14-Pad6)">
+      <node ref="P14" pin="6"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="83" name="Net-(P14-Pad8)">
+      <node ref="P14" pin="8"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="84" name="Net-(P16-Pad2)">
+      <node ref="U5" pin="15"/>
+      <node ref="P16" pin="2"/>
+    </net>
+    <net code="85" name="Net-(P13-Pad14)">
+      <node ref="P13" pin="14"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="86" name="Net-(P13-Pad16)">
+      <node ref="P13" pin="16"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="87" name="Net-(P13-Pad1)">
+      <node ref="P13" pin="1"/>
+      <node ref="P13" pin="13"/>
+      <node ref="P13" pin="15"/>
+      <node ref="U5" pin="14"/>
+      <node ref="P13" pin="3"/>
+      <node ref="P13" pin="11"/>
+      <node ref="P13" pin="5"/>
+      <node ref="P13" pin="7"/>
+      <node ref="P13" pin="9"/>
+    </net>
+    <net code="88" name="Net-(P13-Pad2)">
+      <node ref="P13" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="89" name="Net-(P13-Pad4)">
+      <node ref="P13" pin="4"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="90" name="Net-(P13-Pad6)">
+      <node ref="P13" pin="6"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="91" name="Net-(P13-Pad8)">
+      <node ref="P13" pin="8"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="92" name="Net-(P13-Pad10)">
+      <node ref="P13" pin="10"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="93" name="Net-(P13-Pad12)">
+      <node ref="U5" pin="6"/>
+      <node ref="P13" pin="12"/>
+    </net>
+    <net code="94" name="Net-(P19-Pad11)">
+      <node ref="P19" pin="11"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="95" name="Net-(P19-Pad23)">
+      <node ref="R19" pin="2"/>
+      <node ref="P19" pin="23"/>
+    </net>
+    <net code="96" name="Net-(P19-Pad13)">
+      <node ref="P19" pin="13"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="97" name="Net-(P19-Pad9)">
+      <node ref="R26" pin="2"/>
+      <node ref="P19" pin="9"/>
+    </net>
+    <net code="98" name="Net-(P19-Pad7)">
+      <node ref="P19" pin="7"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="99" name="Net-(P19-Pad5)">
+      <node ref="R28" pin="2"/>
+      <node ref="P19" pin="5"/>
+    </net>
+    <net code="100" name="Net-(P19-Pad3)">
+      <node ref="R29" pin="2"/>
+      <node ref="P19" pin="3"/>
+    </net>
+    <net code="101" name="Net-(P19-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="P19" pin="1"/>
+    </net>
+    <net code="102" name="Net-(P19-Pad15)">
+      <node ref="P19" pin="15"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="103" name="Net-(P19-Pad17)">
+      <node ref="R22" pin="2"/>
+      <node ref="P19" pin="17"/>
+    </net>
+    <net code="104" name="Net-(P19-Pad19)">
+      <node ref="R21" pin="2"/>
+      <node ref="P19" pin="19"/>
+    </net>
+    <net code="105" name="Net-(P19-Pad21)">
+      <node ref="R20" pin="2"/>
+      <node ref="P19" pin="21"/>
+    </net>
+    <net code="106" name="Net-(P18-Pad15)">
+      <node ref="P18" pin="15"/>
+      <node ref="P19" pin="10"/>
+      <node ref="P21" pin="5"/>
+      <node ref="P18" pin="16"/>
+      <node ref="P20" pin="9"/>
+    </net>
+    <net code="107" name="Net-(P18-Pad17)">
+      <node ref="P18" pin="17"/>
+      <node ref="P18" pin="18"/>
+      <node ref="P21" pin="4"/>
+      <node ref="P20" pin="7"/>
+      <node ref="P19" pin="8"/>
+    </net>
+    <net code="108" name="Net-(P18-Pad19)">
+      <node ref="P21" pin="3"/>
+      <node ref="P18" pin="19"/>
+      <node ref="P20" pin="5"/>
+      <node ref="P19" pin="6"/>
+      <node ref="P18" pin="20"/>
+    </net>
+    <net code="109" name="Net-(P18-Pad1)">
+      <node ref="P20" pin="23"/>
+      <node ref="P19" pin="24"/>
+      <node ref="P21" pin="12"/>
+      <node ref="P18" pin="2"/>
+      <node ref="P18" pin="1"/>
+    </net>
+    <net code="110" name="Net-(P18-Pad3)">
+      <node ref="P21" pin="11"/>
+      <node ref="P20" pin="21"/>
+      <node ref="P19" pin="22"/>
+      <node ref="P18" pin="4"/>
+      <node ref="P18" pin="3"/>
+    </net>
+    <net code="111" name="Net-(P18-Pad5)">
+      <node ref="P19" pin="20"/>
+      <node ref="P18" pin="6"/>
+      <node ref="P21" pin="10"/>
+      <node ref="P18" pin="5"/>
+      <node ref="P20" pin="19"/>
+    </net>
+    <net code="112" name="Net-(P18-Pad23)">
+      <node ref="P19" pin="2"/>
+      <node ref="P18" pin="23"/>
+      <node ref="P21" pin="1"/>
+      <node ref="P20" pin="1"/>
+      <node ref="P18" pin="24"/>
+    </net>
+    <net code="113" name="Net-(P18-Pad13)">
+      <node ref="P18" pin="14"/>
+      <node ref="P19" pin="12"/>
+      <node ref="P21" pin="6"/>
+      <node ref="P20" pin="11"/>
+      <node ref="P18" pin="13"/>
+    </net>
+    <net code="114" name="Net-(P18-Pad21)">
+      <node ref="P18" pin="22"/>
+      <node ref="P21" pin="2"/>
+      <node ref="P19" pin="4"/>
+      <node ref="P18" pin="21"/>
+      <node ref="P20" pin="3"/>
+    </net>
+    <net code="115" name="Net-(P18-Pad11)">
+      <node ref="P19" pin="14"/>
+      <node ref="P20" pin="13"/>
+      <node ref="P18" pin="11"/>
+      <node ref="P18" pin="12"/>
+      <node ref="P21" pin="7"/>
+    </net>
+    <net code="116" name="Net-(P18-Pad10)">
+      <node ref="P21" pin="8"/>
+      <node ref="P20" pin="15"/>
+      <node ref="P18" pin="9"/>
+      <node ref="P19" pin="16"/>
+      <node ref="P18" pin="10"/>
+    </net>
+    <net code="117" name="Net-(P18-Pad7)">
+      <node ref="P20" pin="17"/>
+      <node ref="P21" pin="9"/>
+      <node ref="P18" pin="7"/>
+      <node ref="P18" pin="8"/>
+      <node ref="P19" pin="18"/>
+    </net>
+    <net code="118" name="Net-(P23-Pad11)">
+      <node ref="P23" pin="11"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="119" name="Net-(P23-Pad23)">
+      <node ref="R31" pin="2"/>
+      <node ref="P23" pin="23"/>
+    </net>
+    <net code="120" name="Net-(P22-Pad23)">
+      <node ref="P22" pin="24"/>
+      <node ref="P24" pin="1"/>
+      <node ref="P25" pin="1"/>
+      <node ref="P23" pin="2"/>
+      <node ref="P22" pin="23"/>
+    </net>
+    <net code="121" name="Net-(P23-Pad13)">
+      <node ref="P23" pin="13"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="122" name="Net-(P23-Pad9)">
+      <node ref="P23" pin="9"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="123" name="Net-(P23-Pad7)">
+      <node ref="R39" pin="2"/>
+      <node ref="P23" pin="7"/>
+    </net>
+    <net code="124" name="Net-(P23-Pad5)">
+      <node ref="P23" pin="5"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="125" name="Net-(P23-Pad3)">
+      <node ref="P23" pin="3"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="126" name="Net-(P23-Pad1)">
+      <node ref="R42" pin="2"/>
+      <node ref="P23" pin="1"/>
+    </net>
+    <net code="127" name="Net-(P23-Pad15)">
+      <node ref="P23" pin="15"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="128" name="Net-(P23-Pad17)">
+      <node ref="R34" pin="2"/>
+      <node ref="P23" pin="17"/>
+    </net>
+    <net code="129" name="Net-(P23-Pad19)">
+      <node ref="R33" pin="2"/>
+      <node ref="P23" pin="19"/>
+    </net>
+    <net code="130" name="Net-(P23-Pad21)">
+      <node ref="P23" pin="21"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="131" name="Net-(P22-Pad15)">
+      <node ref="P22" pin="16"/>
+      <node ref="P22" pin="15"/>
+      <node ref="P24" pin="9"/>
+      <node ref="P25" pin="5"/>
+      <node ref="P23" pin="10"/>
+    </net>
+    <net code="132" name="Net-(P22-Pad17)">
+      <node ref="P23" pin="8"/>
+      <node ref="P24" pin="7"/>
+      <node ref="P22" pin="18"/>
+      <node ref="P22" pin="17"/>
+      <node ref="P25" pin="4"/>
+    </net>
+    <net code="133" name="Net-(P22-Pad19)">
+      <node ref="P23" pin="6"/>
+      <node ref="P22" pin="20"/>
+      <node ref="P22" pin="19"/>
+      <node ref="P25" pin="3"/>
+      <node ref="P24" pin="5"/>
+    </net>
+    <net code="134" name="Net-(P22-Pad1)">
+      <node ref="P23" pin="24"/>
+      <node ref="P25" pin="12"/>
+      <node ref="P24" pin="23"/>
+      <node ref="P22" pin="1"/>
+      <node ref="P22" pin="2"/>
+    </net>
+    <net code="135" name="Net-(P22-Pad3)">
+      <node ref="P22" pin="4"/>
+      <node ref="P25" pin="11"/>
+      <node ref="P23" pin="22"/>
+      <node ref="P22" pin="3"/>
+      <node ref="P24" pin="21"/>
+    </net>
+    <net code="136" name="Net-(P22-Pad13)">
+      <node ref="P23" pin="12"/>
+      <node ref="P22" pin="13"/>
+      <node ref="P25" pin="6"/>
+      <node ref="P24" pin="11"/>
+      <node ref="P22" pin="14"/>
+    </net>
+    <net code="137" name="Net-(P22-Pad21)">
+      <node ref="P23" pin="4"/>
+      <node ref="P25" pin="2"/>
+      <node ref="P22" pin="22"/>
+      <node ref="P22" pin="21"/>
+      <node ref="P24" pin="3"/>
+    </net>
+    <net code="138" name="Net-(P22-Pad11)">
+      <node ref="P24" pin="13"/>
+      <node ref="P25" pin="7"/>
+      <node ref="P22" pin="11"/>
+      <node ref="P23" pin="14"/>
+      <node ref="P22" pin="12"/>
+    </net>
+    <net code="139" name="Net-(P22-Pad10)">
+      <node ref="P24" pin="15"/>
+      <node ref="P22" pin="10"/>
+      <node ref="P25" pin="8"/>
+      <node ref="P22" pin="9"/>
+      <node ref="P23" pin="16"/>
+    </net>
+    <net code="140" name="Net-(P22-Pad7)">
+      <node ref="P24" pin="17"/>
+      <node ref="P22" pin="8"/>
+      <node ref="P22" pin="7"/>
+      <node ref="P25" pin="9"/>
+      <node ref="P23" pin="18"/>
+    </net>
+    <net code="141" name="Net-(P22-Pad5)">
+      <node ref="P23" pin="20"/>
+      <node ref="P25" pin="10"/>
+      <node ref="P22" pin="5"/>
+      <node ref="P24" pin="19"/>
+      <node ref="P22" pin="6"/>
+    </net>
+    <net code="142" name="Net-(P27-Pad23)">
+      <node ref="P27" pin="23"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="143" name="Net-(P27-Pad13)">
+      <node ref="P27" pin="13"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="144" name="Net-(P27-Pad9)">
+      <node ref="P27" pin="9"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="145" name="Net-(P27-Pad7)">
+      <node ref="R51" pin="2"/>
+      <node ref="P27" pin="7"/>
+    </net>
+    <net code="146" name="Net-(P27-Pad5)">
+      <node ref="R52" pin="2"/>
+      <node ref="P27" pin="5"/>
+    </net>
+    <net code="147" name="Net-(P27-Pad3)">
+      <node ref="R53" pin="2"/>
+      <node ref="P27" pin="3"/>
+    </net>
+    <net code="148" name="Net-(P27-Pad1)">
+      <node ref="R54" pin="2"/>
+      <node ref="P27" pin="1"/>
+    </net>
+    <net code="149" name="Net-(P27-Pad11)">
+      <node ref="P27" pin="11"/>
+      <node ref="R49" pin="2"/>
+    </net>
+    <net code="150" name="Net-(P27-Pad15)">
+      <node ref="R47" pin="2"/>
+      <node ref="P27" pin="15"/>
+    </net>
+    <net code="151" name="Net-(P27-Pad17)">
+      <node ref="R46" pin="2"/>
+      <node ref="P27" pin="17"/>
+    </net>
+    <net code="152" name="Net-(P27-Pad19)">
+      <node ref="R45" pin="2"/>
+      <node ref="P27" pin="19"/>
+    </net>
+    <net code="153" name="Net-(P27-Pad21)">
+      <node ref="R44" pin="2"/>
+      <node ref="P27" pin="21"/>
+    </net>
+    <net code="154" name="Net-(P26-Pad17)">
+      <node ref="P29" pin="4"/>
+      <node ref="P26" pin="18"/>
+      <node ref="P26" pin="17"/>
+      <node ref="P27" pin="8"/>
+      <node ref="P28" pin="7"/>
+    </net>
+    <net code="155" name="Net-(P26-Pad19)">
+      <node ref="P26" pin="19"/>
+      <node ref="P28" pin="5"/>
+      <node ref="P27" pin="6"/>
+      <node ref="P29" pin="3"/>
+      <node ref="P26" pin="20"/>
+    </net>
+    <net code="156" name="Net-(P26-Pad15)">
+      <node ref="P26" pin="15"/>
+      <node ref="P26" pin="16"/>
+      <node ref="P27" pin="10"/>
+      <node ref="P28" pin="9"/>
+      <node ref="P29" pin="5"/>
+    </net>
+    <net code="157" name="Net-(P26-Pad1)">
+      <node ref="P26" pin="1"/>
+      <node ref="P26" pin="2"/>
+      <node ref="P27" pin="24"/>
+      <node ref="P29" pin="12"/>
+      <node ref="P28" pin="23"/>
+    </net>
+    <net code="158" name="Net-(P26-Pad3)">
+      <node ref="P26" pin="4"/>
+      <node ref="P28" pin="21"/>
+      <node ref="P26" pin="3"/>
+      <node ref="P29" pin="11"/>
+      <node ref="P27" pin="22"/>
+    </net>
+    <net code="159" name="Net-(P26-Pad5)">
+      <node ref="P26" pin="5"/>
+      <node ref="P26" pin="6"/>
+      <node ref="P28" pin="19"/>
+      <node ref="P27" pin="20"/>
+      <node ref="P29" pin="10"/>
+    </net>
+    <net code="160" name="Net-(P26-Pad23)">
+      <node ref="P27" pin="2"/>
+      <node ref="P29" pin="1"/>
+      <node ref="P26" pin="24"/>
+      <node ref="P26" pin="23"/>
+      <node ref="P28" pin="1"/>
+    </net>
+    <net code="161" name="Net-(P26-Pad13)">
+      <node ref="P29" pin="6"/>
+      <node ref="P27" pin="12"/>
+      <node ref="P26" pin="13"/>
+      <node ref="P26" pin="14"/>
+      <node ref="P28" pin="11"/>
+    </net>
+    <net code="162" name="Net-(P26-Pad21)">
+      <node ref="P26" pin="21"/>
+      <node ref="P28" pin="3"/>
+      <node ref="P26" pin="22"/>
+      <node ref="P29" pin="2"/>
+      <node ref="P27" pin="4"/>
+    </net>
+    <net code="163" name="Net-(P26-Pad11)">
+      <node ref="P27" pin="14"/>
+      <node ref="P26" pin="12"/>
+      <node ref="P28" pin="13"/>
+      <node ref="P26" pin="11"/>
+      <node ref="P29" pin="7"/>
+    </net>
+    <net code="164" name="Net-(P26-Pad10)">
+      <node ref="P28" pin="15"/>
+      <node ref="P26" pin="10"/>
+      <node ref="P29" pin="8"/>
+      <node ref="P27" pin="16"/>
+      <node ref="P26" pin="9"/>
+    </net>
+    <net code="165" name="Net-(P26-Pad7)">
+      <node ref="P29" pin="9"/>
+      <node ref="P27" pin="18"/>
+      <node ref="P26" pin="8"/>
+      <node ref="P26" pin="7"/>
+      <node ref="P28" pin="17"/>
+    </net>
+    <net code="166" name="Net-(P36-Pad16)">
+      <node ref="P36" pin="16"/>
+    </net>
+    <net code="167" name="Net-(P36-Pad15)">
+      <node ref="P36" pin="15"/>
+    </net>
+    <net code="168" name="Net-(P36-Pad14)">
+      <node ref="P36" pin="14"/>
+    </net>
+    <net code="169" name="Net-(P36-Pad13)">
+      <node ref="P36" pin="13"/>
+    </net>
+    <net code="170" name="Net-(P36-Pad12)">
+      <node ref="P36" pin="12"/>
+    </net>
+    <net code="171" name="Net-(P36-Pad11)">
+      <node ref="P36" pin="11"/>
+    </net>
+    <net code="172" name="Net-(P36-Pad10)">
+      <node ref="P36" pin="10"/>
+    </net>
+    <net code="173" name="Net-(P36-Pad9)">
+      <node ref="P36" pin="9"/>
+    </net>
+    <net code="174" name="Net-(P36-Pad8)">
+      <node ref="P36" pin="8"/>
+    </net>
+    <net code="175" name="Net-(P36-Pad7)">
+      <node ref="P36" pin="7"/>
+    </net>
+    <net code="176" name="Net-(P36-Pad6)">
+      <node ref="P36" pin="6"/>
+    </net>
+    <net code="177" name="Net-(P36-Pad5)">
+      <node ref="P36" pin="5"/>
+    </net>
+    <net code="178" name="Net-(P36-Pad4)">
+      <node ref="P36" pin="4"/>
+    </net>
+    <net code="179" name="Net-(P36-Pad3)">
+      <node ref="P36" pin="3"/>
+    </net>
+    <net code="180" name="Net-(P31-Pad2)">
+      <node ref="P36" pin="17"/>
+      <node ref="P31" pin="2"/>
+    </net>
+    <net code="181" name="Net-(P36-Pad1)">
+      <node ref="P9" pin="2"/>
+      <node ref="P36" pin="1"/>
+    </net>
+  </nets>
+</export>

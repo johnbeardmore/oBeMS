@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:oBeMs_Pulse_PCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -48,17 +47,6 @@ $EndDescr
 Text Notes 4600 1700 0    60   ~ 0
 Watch Dog Timer
 $Comp
-L TLC555 U3
-U 1 1 5636A483
-P 5100 2700
-F 0 "U3" H 5250 3300 70  0000 C CNN
-F 1 "TLC555" H 5250 2600 70  0000 C CNN
-F 2 "REInnovationFootprint:DIP-8__300_ELL" H 5100 2700 60  0001 C CNN
-F 3 "" H 5100 2700 60  0000 C CNN
-	1    5100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L C-RESCUE-oBeMs_Pulse_PCB C3
 U 1 1 5636A48A
 P 4200 4300
@@ -74,7 +62,7 @@ L CP1-RESCUE-oBeMs_Pulse_PCB C5
 U 1 1 5636A491
 P 5750 2900
 F 0 "C5" H 5800 3000 50  0000 L CNN
-F 1 "10n" H 5800 2800 50  0000 L CNN
+F 1 "1u" H 5800 2800 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 5750 2900 60  0001 C CNN
 F 3 "" H 5750 2900 60  0000 C CNN
 	1    5750 2900
@@ -118,7 +106,7 @@ L CP1-RESCUE-oBeMs_Pulse_PCB C4
 U 1 1 5636A4AD
 P 5050 3400
 F 0 "C4" H 5100 3500 50  0000 L CNN
-F 1 "0.1u" H 5100 3300 50  0000 L CNN
+F 1 "1u" H 5100 3300 50  0000 L CNN
 F 2 "matts_components:C1_wide_lg_pad_2" H 5050 3400 60  0001 C CNN
 F 3 "" H 5050 3400 60  0000 C CNN
 	1    5050 3400
@@ -199,26 +187,6 @@ F 3 "" H 3500 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NPN Q1
-U 1 1 5636A54F
-P 7500 4900
-F 0 "Q1" H 7500 4750 50  0000 R CNN
-F 1 "BC546" H 7500 5050 50  0000 R CNN
-F 2 "matts_components:TO92-EBC_large_pad" H 7500 4900 60  0001 C CNN
-F 3 "http://docs-europe.electrocomponents.com/webdocs/078e/0900766b8078ea72.pdf" H 7500 4900 60  0001 C CNN
-F 4 "NPN. 1A. 80V" H 7500 4900 60  0001 C CNN "Description"
-F 5 "~" H 7500 4900 60  0001 C CNN "Notes"
-F 6 "ON Semiconductor" H 7500 4900 60  0001 C CNN "Manufacturer"
-F 7 "BC639" H 7500 4900 60  0001 C CNN "Manufacturer Part No"
-F 8 "RS" H 7500 4900 60  0001 C CNN "Supplier 1"
-F 9 "545-2276" H 7500 4900 60  0001 C CNN "Supplier 1 Part No"
-F 10 "~" H 7500 4900 60  0001 C CNN "Supplier 2"
-F 11 "~" H 7500 4900 60  0001 C CNN "Supplier 2 Part No"
-F 12 "~" H 7500 4900 60  0001 C CNN "Cost"
-	1    7500 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L R-RESCUE-oBeMs_Pulse_PCB R7
 U 1 1 5636A55D
 P 6850 4900
@@ -248,8 +216,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 3100 5750 3250
 Wire Wire Line
-	4450 2400 4800 2400
-Wire Wire Line
 	6100 2050 6100 2000
 Wire Wire Line
 	6100 2050 5950 2050
@@ -260,8 +226,6 @@ Wire Wire Line
 Connection ~ 6100 2600
 Wire Wire Line
 	5750 2300 5700 2300
-Wire Wire Line
-	4650 2500 4800 2500
 Wire Wire Line
 	7600 4150 7600 4050
 Wire Wire Line
@@ -279,8 +243,6 @@ Text HLabel 3400 3200 0    60   Input ~ 0
 Text HLabel 5400 850  0    60   Input ~ 0
 +3.3V
 Wire Wire Line
-	4800 2600 4350 2600
-Wire Wire Line
 	5400 850  5750 850 
 Wire Wire Line
 	5750 850  5750 950 
@@ -297,8 +259,18 @@ U 1 1 563A2ED4
 P 6100 1250
 F 0 "RV1" H 6100 1150 50  0000 C CNN
 F 1 "500k" H 6100 1250 50  0000 C CNN
-F 2 "matts_components:RV_various_lg_pad" H 6100 1250 60  0001 C CNN
-F 3 "" H 6100 1250 60  0000 C CNN
+F 2 "REInnovationFootprint:RV_various_lg_pad" H 6100 1250 60  0001 C CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/002e/0900766b8002e6fe.pdf" H 6100 1250 60  0001 C CNN
+F 4 "~" H 6100 1250 60  0000 C CNN "Notes"
+F 5 "~" H 6100 1250 60  0001 C CNN "Description"
+F 6 "~" H 6100 1250 60  0001 C CNN "Manufacturer"
+F 7 "~" H 6100 1250 60  0001 C CNN "Manufacturer Part No"
+F 8 "~" H 6100 1250 60  0001 C CNN "Supplier 1"
+F 9 "~" H 6100 1250 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 6100 1250 60  0001 C CNN "Supplier 1 Cost"
+F 11 "~" H 6100 1250 60  0001 C CNN "Supplier 2"
+F 12 "~" H 6100 1250 60  0001 C CNN "Supplier 2 Part No"
+F 13 "~" H 6100 1250 60  0001 C CNN "Supplier 2 Cost"
 	1    6100 1250
 	0    -1   -1   0   
 $EndComp
@@ -495,7 +467,7 @@ Wire Wire Line
 	5800 5350 5650 5350
 Text HLabel 4950 3750 0    60   Input ~ 0
 GND
-Text HLabel 4750 2050 0    60   Input ~ 0
+Text HLabel 4150 2300 0    60   Input ~ 0
 GND
 Text HLabel 5600 3250 0    60   Input ~ 0
 GND
@@ -507,9 +479,7 @@ Connection ~ 5750 3250
 Wire Wire Line
 	5050 3750 4950 3750
 Wire Wire Line
-	4750 2050 4800 2050
-Wire Wire Line
-	4800 2050 4800 2300
+	4150 2300 4700 2300
 NoConn ~ 6450 5100
 NoConn ~ 6450 4600
 NoConn ~ 6450 4500
@@ -517,4 +487,34 @@ NoConn ~ 6450 4400
 NoConn ~ 6450 4300
 NoConn ~ 6450 4200
 NoConn ~ 6450 4100
+$Comp
+L Q_NPN_CBE Q1
+U 1 1 5991B6E4
+P 7500 4900
+F 0 "Q1" H 7800 4950 50  0000 R CNN
+F 1 "BC546" H 7950 4850 50  0000 R CNN
+F 2 "matts_components:TO92-PNP_large_pad" H 7700 5000 50  0001 C CNN
+F 3 "" H 7500 4900 50  0000 C CNN
+	1    7500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLC555_8PIN U3
+U 1 1 599187A7
+P 5200 2500
+F 0 "U3" H 5100 2925 50  0000 R CNN
+F 1 "TLC555_8PIN" H 5100 2850 50  0000 R CNN
+F 2 "REInnovationFootprint:DIP-8__300_ELL" H 5250 2250 50  0001 L CNN
+F 3 "" H 5850 1950 50  0000 C CNN
+	1    5200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2500 4700 2500
+Wire Wire Line
+	4700 2600 4350 2600
+Wire Wire Line
+	4450 2400 4700 2400
+Wire Wire Line
+	6100 1500 6100 1400
 $EndSCHEMATC

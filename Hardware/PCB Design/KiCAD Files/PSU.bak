@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:oBeMs_Pulse_PCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -84,10 +83,10 @@ F 11 "~" H 5750 1800 60  0001 C CNN "Supplier 2 Part No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR014
+L GNDPWR #PWR016
 U 1 1 56361153
 P 3250 2350
-F 0 "#PWR014" H 3250 2400 40  0001 C CNN
+F 0 "#PWR016" H 3250 2400 40  0001 C CNN
 F 1 "GNDPWR" H 3250 2270 40  0000 C CNN
 F 2 "" H 3250 2350 60  0000 C CNN
 F 3 "" H 3250 2350 60  0000 C CNN
@@ -132,7 +131,7 @@ U 1 1 56363C21
 P 7000 2400
 F 0 "C1" H 7050 2500 50  0000 L CNN
 F 1 "100u" H 7050 2300 50  0000 L CNN
-F 2 "REInnovationFootprint:C2V8_VandA" H 7000 2400 60  0001 C CNN
+F 2 "REInnovationFootprint:C2V8_V" H 7000 2400 60  0001 C CNN
 F 3 "" H 7000 2400 60  0000 C CNN
 F 4 "Value" H 7000 2400 60  0001 C CNN "Description"
 F 5 "Value" H 7000 2400 60  0001 C CNN "Notes"
@@ -151,7 +150,7 @@ U 1 1 56363C51
 P 9150 2400
 F 0 "C2" H 9200 2500 50  0000 L CNN
 F 1 "1000u" H 9200 2300 50  0000 L CNN
-F 2 "REInnovationFootprint:C2V8_VandA" H 9150 2400 60  0001 C CNN
+F 2 "REInnovationFootprint:C2V8_V" H 9150 2400 60  0001 C CNN
 F 3 "" H 9150 2400 60  0000 C CNN
 F 4 "Value" H 9150 2400 60  0001 C CNN "Description"
 F 5 "Value" H 9150 2400 60  0001 C CNN "Notes"
@@ -229,102 +228,102 @@ Connection ~ 9000 2100
 Text Notes 7600 3300 0    60   ~ 0
 Distribution Blocks for Power
 Wire Wire Line
-	7050 4350 6950 4350
+	8050 4400 7950 4400
 Wire Wire Line
-	6950 3950 6950 4800
+	7950 4000 7950 4850
 Wire Wire Line
-	6950 4800 7650 4800
+	7950 4850 8650 4850
 Wire Wire Line
-	7650 4800 7650 3950
+	8650 4850 8650 4000
 Wire Wire Line
-	7650 4350 7550 4350
+	8650 4400 8550 4400
 Wire Wire Line
-	7550 4450 7650 4450
-Connection ~ 7650 4450
+	8550 4500 8650 4500
+Connection ~ 8650 4500
 Wire Wire Line
-	7550 4550 7650 4550
-Connection ~ 7650 4550
+	8550 4600 8650 4600
+Connection ~ 8650 4600
 Wire Wire Line
-	7550 4650 7650 4650
-Connection ~ 7650 4650
+	8550 4700 8650 4700
+Connection ~ 8650 4700
 Wire Wire Line
-	7050 4650 6950 4650
-Connection ~ 6950 4650
+	8050 4700 7950 4700
+Connection ~ 7950 4700
 Wire Wire Line
-	7050 4550 6950 4550
-Connection ~ 6950 4550
+	8050 4600 7950 4600
+Connection ~ 7950 4600
 Wire Wire Line
-	7050 4450 6950 4450
-Connection ~ 6950 4450
+	8050 4500 7950 4500
+Connection ~ 7950 4500
 Wire Wire Line
-	7900 4350 7800 4350
+	8900 4400 8800 4400
 Wire Wire Line
-	7800 3950 7800 4800
+	8800 4000 8800 4850
 Wire Wire Line
-	7800 4800 8500 4800
+	8800 4850 9500 4850
 Wire Wire Line
-	8500 4800 8500 3950
+	9500 4850 9500 4000
 Wire Wire Line
-	8500 4350 8400 4350
+	9500 4400 9400 4400
 Wire Wire Line
-	8400 4450 8500 4450
-Connection ~ 8500 4450
+	9400 4500 9500 4500
+Connection ~ 9500 4500
 Wire Wire Line
-	8400 4550 8500 4550
-Connection ~ 8500 4550
+	9400 4600 9500 4600
+Connection ~ 9500 4600
 Wire Wire Line
-	8400 4650 8500 4650
-Connection ~ 8500 4650
+	9400 4700 9500 4700
+Connection ~ 9500 4700
 Wire Wire Line
-	7900 4650 7800 4650
-Connection ~ 7800 4650
+	8900 4700 8800 4700
+Connection ~ 8800 4700
 Wire Wire Line
-	7900 4550 7800 4550
-Connection ~ 7800 4550
+	8900 4600 8800 4600
+Connection ~ 8800 4600
 Wire Wire Line
-	7900 4450 7800 4450
-Connection ~ 7800 4450
+	8900 4500 8800 4500
+Connection ~ 8800 4500
 Wire Wire Line
-	8750 4350 8650 4350
+	9750 4400 9650 4400
 Wire Wire Line
-	8650 3950 8650 4800
+	9650 4000 9650 4850
 Wire Wire Line
-	8650 4800 9350 4800
+	9650 4850 10350 4850
 Wire Wire Line
-	9350 4800 9350 3950
+	10350 4850 10350 4000
 Wire Wire Line
-	9350 4350 9250 4350
+	10350 4400 10250 4400
 Wire Wire Line
-	9250 4450 9350 4450
-Connection ~ 9350 4450
+	10250 4500 10350 4500
+Connection ~ 10350 4500
 Wire Wire Line
-	9250 4550 9350 4550
-Connection ~ 9350 4550
+	10250 4600 10350 4600
+Connection ~ 10350 4600
 Wire Wire Line
-	9250 4650 9350 4650
-Connection ~ 9350 4650
+	10250 4700 10350 4700
+Connection ~ 10350 4700
 Wire Wire Line
-	8750 4650 8650 4650
-Connection ~ 8650 4650
+	9750 4700 9650 4700
+Connection ~ 9650 4700
 Wire Wire Line
-	8750 4550 8650 4550
-Connection ~ 8650 4550
+	9750 4600 9650 4600
+Connection ~ 9650 4600
 Wire Wire Line
-	8750 4450 8650 4450
-Connection ~ 8650 4450
+	9750 4500 9650 4500
+Connection ~ 9650 4500
 Wire Wire Line
-	9000 4950 9000 4800
-Connection ~ 9000 4800
+	10000 5000 10000 4850
+Connection ~ 10000 4850
 Wire Wire Line
-	7400 5000 7300 5000
+	8400 5050 8300 5050
 Wire Wire Line
-	7300 5000 7300 4800
-Connection ~ 7300 4800
+	8300 5050 8300 4850
+Connection ~ 8300 4850
 Wire Wire Line
-	8300 5000 8150 5000
+	9300 5050 9150 5050
 Wire Wire Line
-	8150 5000 8150 4800
-Connection ~ 8150 4800
+	9150 5050 9150 4850
+Connection ~ 9150 4850
 Text Notes 4600 4350 0    60   ~ 0
 5V 3A Regulator
 $Comp
@@ -352,7 +351,7 @@ U 1 1 56729E79
 P 6450 5000
 F 0 "C11" H 6500 5100 50  0000 L CNN
 F 1 "1000u" H 6500 4900 50  0000 L CNN
-F 2 "REInnovationFootprint:C2V8_VandA" H 6450 5000 60  0001 C CNN
+F 2 "REInnovationFootprint:C2V8_V" H 6450 5000 60  0001 C CNN
 F 3 "" H 6450 5000 60  0000 C CNN
 F 4 "Value" H 6450 5000 60  0001 C CNN "Description"
 F 5 "Value" H 6450 5000 60  0001 C CNN "Notes"
@@ -409,7 +408,7 @@ $EndComp
 Wire Wire Line
 	6450 4650 6450 4800
 Wire Wire Line
-	4300 4550 4300 4800
+	4300 3000 4300 4800
 Wire Wire Line
 	4300 5200 4300 5350
 Wire Wire Line
@@ -502,14 +501,16 @@ F 0 "D16" H 2750 4950 70  0000 C CNN
 F 1 "BRIDGE" H 2750 4850 70  0000 C CNN
 F 2 "REInnovationFootprint:TH_BridgeRect_8A" H 2750 4900 60  0001 C CNN
 F 3 "http://docs-europe.electrocomponents.com/webdocs/1404/0900766b81404e75.pdf" H 2750 4900 60  0001 C CNN
-F 4 "8A Bridge Rectifier" H 2750 4900 60  0001 C CNN "Description"
-F 5 "~" H 2750 4900 60  0001 C CNN "Notes"
+F 4 "~" H 2750 4900 60  0001 C CNN "Notes"
+F 5 "8A Bridge Rectifier" H 2750 4900 60  0001 C CNN "Description"
 F 6 "Taiwan Semiconductor" H 2750 4900 60  0001 C CNN "Manufacturer"
 F 7 "KBU807G" H 2750 4900 60  0001 C CNN "Manufacturer Part No"
 F 8 "RS" H 2750 4900 60  0001 C CNN "Supplier 1"
 F 9 "687-5914" H 2750 4900 60  0001 C CNN "Supplier 1 Part No"
-F 10 "~" H 2750 4900 60  0001 C CNN "Supplier 2"
-F 11 "~" H 2750 4900 60  0001 C CNN "Supplier 2 Part No"
+F 10 "~" H 2750 4900 60  0001 C CNN "Supplier 1 Cost"
+F 11 "~" H 2750 4900 60  0001 C CNN "Supplier 2"
+F 12 "~" H 2750 4900 60  0001 C CNN "Supplier 2 Part No"
+F 13 "~" H 2750 4900 60  0001 C CNN "Supplier 2 Cost"
 	1    2750 4900
 	1    0    0    -1  
 $EndComp
@@ -535,7 +536,7 @@ U 1 1 56784C40
 P 3900 4050
 F 0 "P2" H 3900 4200 50  0000 C CNN
 F 1 "EXT_CAP" V 4000 4050 50  0000 C CNN
-F 2 "matts_components:SIL-2_wide_lg_pad" H 3900 4050 60  0001 C CNN
+F 2 "REInnovationFootprint:SIL-2_LG_PAD" H 3900 4050 60  0001 C CNN
 F 3 "" H 3900 4050 60  0000 C CNN
 	1    3900 4050
 	0    -1   -1   0   
@@ -549,109 +550,108 @@ Connection ~ 3950 5350
 $Comp
 L CONN_02X08 P10
 U 1 1 56785623
-P 7300 4300
-F 0 "P10" H 7300 4750 50  0000 C CNN
-F 1 "5V" V 7300 4300 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 7300 3100 60  0001 C CNN
-F 3 "" H 7300 3100 60  0000 C CNN
-	1    7300 4300
+P 8300 4350
+F 0 "P10" H 8300 4800 50  0000 C CNN
+F 1 "5V" V 8300 4350 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 8300 3150 60  0001 C CNN
+F 3 "" H 8300 3150 60  0000 C CNN
+	1    8300 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02X08 P11
 U 1 1 56785694
-P 8150 4300
-F 0 "P11" H 8150 4750 50  0000 C CNN
-F 1 "3V3" V 8150 4300 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 8150 3100 60  0001 C CNN
-F 3 "" H 8150 3100 60  0000 C CNN
-	1    8150 4300
+P 9150 4350
+F 0 "P11" H 9150 4800 50  0000 C CNN
+F 1 "3V3" V 9150 4350 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 9150 3150 60  0001 C CNN
+F 3 "" H 9150 3150 60  0000 C CNN
+	1    9150 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02X08 P12
 U 1 1 567856E7
-P 9000 4300
-F 0 "P12" H 9000 4750 50  0000 C CNN
-F 1 "GND" V 9000 4300 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 9000 3100 60  0001 C CNN
-F 3 "" H 9000 3100 60  0000 C CNN
-	1    9000 4300
+P 10000 4350
+F 0 "P12" H 10000 4800 50  0000 C CNN
+F 1 "GND" V 10000 4350 50  0000 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_2x08" H 10000 3150 60  0001 C CNN
+F 3 "" H 10000 3150 60  0000 C CNN
+	1    10000 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3950 7050 3950
-Connection ~ 6950 4350
+	7950 4000 8050 4000
+Connection ~ 7950 4400
 Wire Wire Line
-	7050 4050 6950 4050
-Connection ~ 6950 4050
+	8050 4100 7950 4100
+Connection ~ 7950 4100
 Wire Wire Line
-	7050 4150 6950 4150
-Connection ~ 6950 4150
+	8050 4200 7950 4200
+Connection ~ 7950 4200
 Wire Wire Line
-	7050 4250 6950 4250
-Connection ~ 6950 4250
+	8050 4300 7950 4300
+Connection ~ 7950 4300
 Wire Wire Line
-	7650 3950 7550 3950
-Connection ~ 7650 4350
+	8650 4000 8550 4000
+Connection ~ 8650 4400
 Wire Wire Line
-	7550 4250 7650 4250
-Connection ~ 7650 4250
+	8550 4300 8650 4300
+Connection ~ 8650 4300
 Wire Wire Line
-	7550 4150 7650 4150
-Connection ~ 7650 4150
+	8550 4200 8650 4200
+Connection ~ 8650 4200
 Wire Wire Line
-	7550 4050 7650 4050
-Connection ~ 7650 4050
+	8550 4100 8650 4100
+Connection ~ 8650 4100
 Wire Wire Line
-	7900 3950 7800 3950
-Connection ~ 7800 4350
+	8900 4000 8800 4000
+Connection ~ 8800 4400
 Wire Wire Line
-	7900 4050 7800 4050
-Connection ~ 7800 4050
+	8900 4100 8800 4100
+Connection ~ 8800 4100
 Wire Wire Line
-	7900 4150 7800 4150
-Connection ~ 7800 4150
+	8900 4200 8800 4200
+Connection ~ 8800 4200
 Wire Wire Line
-	7900 4250 7800 4250
-Connection ~ 7800 4250
+	8900 4300 8800 4300
+Connection ~ 8800 4300
 Wire Wire Line
-	8500 3950 8400 3950
-Connection ~ 8500 4350
+	9500 4000 9400 4000
+Connection ~ 9500 4400
 Wire Wire Line
-	8400 4050 8500 4050
-Connection ~ 8500 4050
+	9400 4100 9500 4100
+Connection ~ 9500 4100
 Wire Wire Line
-	8400 4150 8500 4150
-Connection ~ 8500 4150
+	9400 4200 9500 4200
+Connection ~ 9500 4200
 Wire Wire Line
-	8400 4250 8500 4250
-Connection ~ 8500 4250
+	9400 4300 9500 4300
+Connection ~ 9500 4300
 Wire Wire Line
-	8750 3950 8650 3950
-Connection ~ 8650 4350
+	9750 4000 9650 4000
+Connection ~ 9650 4400
 Wire Wire Line
-	8750 4050 8650 4050
-Connection ~ 8650 4050
+	9750 4100 9650 4100
+Connection ~ 9650 4100
 Wire Wire Line
-	8750 4150 8650 4150
-Connection ~ 8650 4150
+	9750 4200 9650 4200
+Connection ~ 9650 4200
 Wire Wire Line
-	8750 4250 8650 4250
-Connection ~ 8650 4250
+	9750 4300 9650 4300
+Connection ~ 9650 4300
 Wire Wire Line
-	9350 3950 9250 3950
-Connection ~ 9350 4350
+	10350 4000 10250 4000
+Connection ~ 10350 4400
 Wire Wire Line
-	9250 4250 9350 4250
-Connection ~ 9350 4250
+	10250 4300 10350 4300
+Connection ~ 10350 4300
 Wire Wire Line
-	9250 4150 9350 4150
-Connection ~ 9350 4150
+	10250 4200 10350 4200
+Connection ~ 10350 4200
 Wire Wire Line
-	9250 4050 9350 4050
-Connection ~ 9350 4050
-NoConn ~ 3900 4050
+	10250 4100 10350 4100
+Connection ~ 10350 4100
 $Comp
 L ZENER-RESCUE-oBeMs_Pulse_PCB D1
 U 1 1 5678F5B3
@@ -707,30 +707,69 @@ Wire Wire Line
 Connection ~ 3050 3150
 Connection ~ 3600 3400
 Connection ~ 3600 4550
-Text HLabel 6000 1600 2    60   Output ~ 0
+Text HLabel 6650 1600 2    60   Output ~ 0
 +5V
-Text HLabel 6750 2000 0    60   Input ~ 0
+Text HLabel 6750 1900 2    60   Input ~ 0
 +5V
-Text HLabel 9300 2000 2    60   Output ~ 0
+Text HLabel 9950 2000 2    60   Output ~ 0
 +3V3
 Text HLabel 6550 4650 2    60   Output ~ 0
 +5V
-Text HLabel 7400 5000 2    60   Input ~ 0
+Text HLabel 8400 5050 2    60   Input ~ 0
 +5V
-Text HLabel 8300 5000 2    60   Input ~ 0
+Text HLabel 9300 5050 2    60   Input ~ 0
 +3V3
 Text HLabel 6000 2050 2    60   Output ~ 0
 GND
 Wire Wire Line
 	6750 2000 7000 2000
 Wire Wire Line
-	9150 2000 9300 2000
+	9150 2000 9950 2000
 Text HLabel 7750 2900 0    60   Input ~ 0
 GND
-Text HLabel 9000 4950 0    60   Input ~ 0
+Text HLabel 10000 5000 0    60   Input ~ 0
 GND
 Wire Wire Line
 	6450 4650 6550 4650
 Text HLabel 5050 5500 0    60   Input ~ 0
 GND
+$Comp
+L CONN_01X03 P32
+U 1 1 59922190
+P 6550 2000
+F 0 "P32" H 6550 2200 50  0000 C CNN
+F 1 "V_PWR" V 6650 2000 50  0000 C CNN
+F 2 "REInnovationFootprint:SM_3pad_SOLDER_named" H 6550 2000 50  0001 C CNN
+F 3 "" H 6550 2000 50  0000 C CNN
+	1    6550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 3000 6850 3000
+Wire Wire Line
+	6850 3000 6850 2100
+Wire Wire Line
+	6850 2100 6750 2100
+Connection ~ 4300 4550
+$Comp
+L FUSE F2
+U 1 1 59922A65
+P 6250 1600
+F 0 "F2" H 6350 1650 40  0000 C CNN
+F 1 "1A/2A" H 6250 1450 40  0000 C CNN
+F 2 "REInnovationFootprint:TH_Fuse_Holder_5-20_CPC" H 6250 1600 60  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1564551.pdf" H 6250 1600 60  0001 C CNN
+F 4 "240V AC 5A Fuseholder" H 6250 1600 60  0001 C CNN "Description"
+F 5 "~" H 6250 1600 60  0001 C CNN "Notes"
+F 6 "Unbranded" H 6250 1600 60  0001 C CNN "Manufacturer"
+F 7 "MCHTC-100M" H 6250 1600 60  0001 C CNN "Manufacturer Part No"
+F 8 "CPC" H 6250 1600 60  0001 C CNN "Supplier 1"
+F 9 "FF01942 " H 6250 1600 60  0001 C CNN "Supplier 1 Part No"
+F 10 "~" H 6250 1600 60  0001 C CNN "Supplier 2"
+F 11 "~" H 6250 1600 60  0001 C CNN "Supplier 2 Part No"
+	1    6250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1600 6650 1600
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:oBeMs_Pulse_PCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 8 10
 Title "oBeMS Open Interface Board 0001"
 Date "2015-12-23"
 Rev "6"
@@ -219,7 +218,7 @@ AR Path="/5637EAA2/563799C8" Ref="P27"  Part="1"
 AR Path="/5637EAA4/563799C8" Ref="P31"  Part="1" 
 F 0 "P27" H 5200 2600 50  0000 C CNN
 F 1 "PULL_UP" V 5200 1950 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_2x12" H 5200 750 60  0001 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_2x12_SM_Connect" H 5200 750 60  0001 C CNN
 F 3 "" H 5200 750 60  0000 C CNN
 F 4 "~" H 5200 1950 60  0001 C CNN "Description"
 F 5 "~" H 5200 1950 60  0001 C CNN "Notes"
@@ -243,7 +242,7 @@ AR Path="/5637EAA2/56379AE8" Ref="P28"  Part="1"
 AR Path="/5637EAA4/56379AE8" Ref="P32"  Part="1" 
 F 0 "P28" H 5200 4650 50  0000 C CNN
 F 1 "GROUND" V 5200 4000 50  0000 C CNN
-F 2 "REInnovationFootprint:Pin_Header_Straight_2x12" H 5200 2800 60  0001 C CNN
+F 2 "REInnovationFootprint:Pin_Header_Straight_2x12_SM_Connect" H 5200 2800 60  0001 C CNN
 F 3 "" H 5200 2800 60  0000 C CNN
 F 4 "~" H 5200 4000 60  0001 C CNN "Description"
 F 5 "~" H 5200 4000 60  0001 C CNN "Notes"

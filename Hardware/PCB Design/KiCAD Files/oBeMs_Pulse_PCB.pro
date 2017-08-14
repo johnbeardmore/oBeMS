@@ -1,4 +1,4 @@
-update=23/12/2015 09:13:20
+update=14/08/2017 17:13:07
 version=1
 last_client=kicad
 [general]
@@ -64,10 +64,11 @@ LibName30=valves
 LibName31=E:/Google Drive REI/KiCAD/KiCad My Libraries/matts_components
 LibName32=oBeMs_Pulse_PCB-cache
 LibName33=D:/Google Drive/KiCAD/KiCad My Libraries/matts_components
+LibName34=E:/Google Drive/KiCAD/kicad_reinnovation/KiCad My Libraries/matts_components
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=../Schematics/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
